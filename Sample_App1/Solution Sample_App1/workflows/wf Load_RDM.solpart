@@ -1,0 +1,44 @@
+﻿<WorkflowClass classID="ID2d3cf28c775f4aaca2e2c2a3ac51acc6" classRelease="2018-02-13T17:06:00.1019813Z" name="Load_RDM" xmlVersion="0.2" owner="APAC" path="" description="">
+  <edges>
+    <Edge fromModule="0" fromSlot="ID6da6fff8b6b7444a922305fbaa611d60" toModule="3" toSlot="input" />
+    <Edge fromModule="0" fromSlot="IDdcd4247720294977ac6a9909a25434e6" toModule="2" toSlot="input" />
+    <Edge fromModule="0" fromSlot="IDe1d48cc2d6434ae6bf6a2773d0bb5369" toModule="4" toSlot="input" />
+  </edges>
+  <modules>
+    <ModulInst id="0" classID="ID943816726b81430db7dd479bc975623d" ClassName="Load_DB_Data" location="156,153">
+      <slots />
+    </ModulInst>
+    <ModulInst id="1" classID="IDb28088e35f7d41c484cf790a306c7563" ClassName="Load_CSV_Data" location="350,155" />
+    <ModulInst id="2" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="129,272">
+      <slots>
+        <SlotInst id="dsn" value="" />
+        <SlotInst id="idcolumn" value="CustomerID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Customer" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="332,271">
+      <slots>
+        <SlotInst id="dsn" value="" />
+        <SlotInst id="idcolumn" value="OrderID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Orders" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="4" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="507,275">
+      <slots>
+        <SlotInst id="dsn" value="" />
+        <SlotInst id="idcolumn" value="OrdProdid" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Order_Details" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <timeEdges>
+    <TimeEdge from="2" to="3" />
+    <TimeEdge from="3" to="4" />
+  </timeEdges>
+</WorkflowClass>

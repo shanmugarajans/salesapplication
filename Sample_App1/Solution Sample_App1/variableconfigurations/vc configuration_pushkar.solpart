@@ -1,6 +1,6 @@
-﻿<variableconfiguration Id="9b2bfc36-d4e2-46e2-90c7-e078b705d42e" Name="Default">
+﻿<variableconfiguration Id="425f7215-cf50-411d-8d94-6e66c4b7b5a1" Name="configuration_pushkar">
   <Configuration>
-    <Entry key="ID45b57b17721f4b01856790850741fa34" value="SalesBrain (CGSCLRD48854122.in623.corpintra.net)" />
+    <Entry key="ID45b57b17721f4b01856790850741fa34" value="" />
     <Entry key="ID9e398762b00d492f98694b9a92878cb3" value="Order_DB" />
     <Entry key="IDbd340eb412a14a4ba25c2d14e4dc4592" value="C:\PDM-2020\Sample_Application\Data" />
     <Entry key="IDc84b65e95efe462db54c7dade5fd5bfc" value="adb://DbType=MsSql2008_Native/SchemaPrefix=dbo/ConnectionString=Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;/EncryptionMode:Base" />
