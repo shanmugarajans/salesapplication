@@ -1,0 +1,74 @@
+﻿<WorkflowClass classID="IDeb85493af23c4c59ab962502413f8e8d" classRelease="2018-02-14T16:51:42.5983457Z" name="Load_Relation_Instances" xmlVersion="0.2" owner="APAC" path="" description="">
+  <macroEdges>
+    <MacroEdge externSlot="ID244cd6b6b00f4ffeab0e99bb57524dba" internModule="4" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="ID5f228542f9dd458e88a9db43632ae9c5" internModule="3" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="ID72c922d02cbd4454bb5766e5e31e028c" internModule="2" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="ID94db984f2c1e4abc97f898537cb0ba94" internModule="0" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID94db984f2c1e4abc97f898537cb0ba94" internModule="1" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID94db984f2c1e4abc97f898537cb0ba94" internModule="2" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID94db984f2c1e4abc97f898537cb0ba94" internModule="3" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID94db984f2c1e4abc97f898537cb0ba94" internModule="4" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="IDd1c2ba388457434dbef555f57b1fa529" internModule="0" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="IDd76102d5f6b04f2cbe21244ee3d5e9eb" internModule="1" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+  </macroEdges>
+  <modules>
+    <ModulInst id="0" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="130,143">
+      <slots>
+        <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="OrdProdid" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
+        <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_contains_OrderDetails" />
+        <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="1" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="367,144">
+      <slots>
+        <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="CustomerID" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
+        <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_placed_by_Customer" />
+        <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="563,141">
+      <slots>
+        <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="EmployeeID" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
+        <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_created_by_Employee" />
+        <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="756,138">
+      <slots>
+        <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="ProductID" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrdProdid" />
+        <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
+        <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Product_mentioned_in_OrderDetails" />
+        <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="4" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="927,131">
+      <slots>
+        <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="CategoryID" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="ProductID" />
+        <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
+        <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Product_belongs_to_ProductCategory" />
+        <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <slots>
+    <SlotClass id="ID244cd6b6b00f4ffeab0e99bb57524dba" name="Prod_B_Category" defaultValue="" inputType="xml" slotType="Input" location="918,45.7" variable="" variablestringformat="" />
+    <SlotClass id="ID5f228542f9dd458e88a9db43632ae9c5" name="Ord_M_Prod" defaultValue="" inputType="xml" slotType="Input" location="746,47.3" variable="" variablestringformat="" />
+    <SlotClass id="ID72c922d02cbd4454bb5766e5e31e028c" name="Emp_C_Order" defaultValue="" inputType="xml" slotType="Input" location="559.6,49.7" variable="" variablestringformat="" />
+    <SlotClass id="ID94db984f2c1e4abc97f898537cb0ba94" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="575.2,531.2" variable="ID76cb048f330e4ad38b5eb8488009b28e" variablestringformat="{0}" />
+    <SlotClass id="IDd1c2ba388457434dbef555f57b1fa529" name="Ord_Orddetails" defaultValue="" inputType="xml" slotType="Input" location="128,52.9" variable="" variablestringformat="" />
+    <SlotClass id="IDd76102d5f6b04f2cbe21244ee3d5e9eb" name="Cust_P_Order" defaultValue="" inputType="xml" slotType="Input" location="346,50.5" variable="" variablestringformat="" />
+  </slots>
+</WorkflowClass>
