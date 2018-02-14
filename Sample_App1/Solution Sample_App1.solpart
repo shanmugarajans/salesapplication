@@ -1,5 +1,8 @@
 ﻿<Solution name="Sample_App1" ID="ID980d56393ffc4b829fc94463459df77c" xmlVersion="0.3">
   <variables>
+    <Variable Id="ID9e398762b00d492f98694b9a92878cb3" Name="RDM_DB" OfType="" />
+    <Variable Id="IDbd340eb412a14a4ba25c2d14e4dc4592" Name="CSV_Loc" OfType="" />
+    <Variable Id="IDc84b65e95efe462db54c7dade5fd5bfc" Name="DB_Connection" OfType="ConnectionString" />
     <Variable Id="ID45b57b17721f4b01856790850741fa34" Name="DigitalBrain" OfType="SemNet" Schema="Sales" />
   </variables>
 </Solution>

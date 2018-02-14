@@ -1,0 +1,58 @@
+﻿<WorkflowClass classID="ID943816726b81430db7dd479bc975623d" classRelease="2018-02-13T14:21:22.1110543Z" name="Load_DB_Data" xmlVersion="0.2" owner="APAC" path="" description="">
+  <comments>
+    <Comment id="ID9a239863d8f443039fbeb42cd8d7485e" text="Product" location="533.6,126.4" size="100,100" />
+    <Comment id="IDbfc1c7dbc9b74452ba40b98d34716316" text="Orders" location="202.4,127.2" size="100,100" />
+    <Comment id="IDc4b8e51eceaa4672929c2e402148185c" text="Customer" location="21.6,126.4" size="100,100" />
+    <Comment id="IDcefa670352064ddcad6bae1dbc4a5090" text="Order Details" location="364,117.6" size="100,100" />
+  </comments>
+  <macroEdges>
+    <MacroEdge externSlot="ID1d6aea0340d84bea9458c666ca651ee6" internModule="3" internSlot="0" />
+    <MacroEdge externSlot="ID6da6fff8b6b7444a922305fbaa611d60" internModule="1" internSlot="0" />
+    <MacroEdge externSlot="IDdcd4247720294977ac6a9909a25434e6" internModule="0" internSlot="0" />
+    <MacroEdge externSlot="IDe1d48cc2d6434ae6bf6a2773d0bb5369" internModule="2" internSlot="0" />
+  </macroEdges>
+  <modules>
+    <ModulInst id="0" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="18,180">
+      <slots>
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="3" value="SELECT TOP 1000 [CustomerID],[CompanyName],[ContactName],[ContactTitle],[Address],[City],[Region],[PostalCode],[Country],[Phone],[Fax] FROM [NORTHWND].[dbo].[Customers]" />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
+        <SlotInst id="f34aab16748e13e139084bc8ba53cd06302a26f7" value="True" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="1" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="201,184">
+      <slots>
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="3" value="SELECT TOP 1000 [OrderID],[CustomerID],[EmployeeID],[OrderDate],[RequiredDate],[ShippedDate],[ShipVia],[Freight],[ShipName],[ShipAddress],[ShipCity],[ShipRegion],[ShipPostalCode],[ShipCountry] FROM [NORTHWND].[dbo].[Orders]" />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
+        <SlotInst id="f34aab16748e13e139084bc8ba53cd06302a26f7" value="false" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="368,184">
+      <slots>
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="3" value="SELECT TOP 1000 [OrderID],[ProductID],[UnitPrice],[Quantity],[Discount],cast([OrderID] as varchar(20))+cast([ProductID]  as varchar(20))  as OrdProdid FROM [NORTHWND].[dbo].[Order Details]" />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
+        <SlotInst id="f34aab16748e13e139084bc8ba53cd06302a26f7" value="false" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="540,184">
+      <slots>
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="3" value="SELECT TOP 1000 [ProductID],[ProductName],[SupplierID],[CategoryID],[QuantityPerUnit],[UnitPrice],[UnitsInStock],[UnitsOnOrder],[ReorderLevel],[Discontinued] FROM [NORTHWND].[dbo].[Products]" />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
+        <SlotInst id="f34aab16748e13e139084bc8ba53cd06302a26f7" value="false" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <slots>
+    <SlotClass id="ID1d6aea0340d84bea9458c666ca651ee6" name="Products" defaultValue="" inputType="xml" slotType="Output" location="552.4,294.9" variable="" variablestringformat="" />
+    <SlotClass id="ID6da6fff8b6b7444a922305fbaa611d60" name="Orders" defaultValue="" inputType="xml" slotType="Output" location="216.4,298.1" variable="" variablestringformat="" />
+    <SlotClass id="IDdcd4247720294977ac6a9909a25434e6" name="Customer" defaultValue="" inputType="xml" slotType="Output" location="9.59999999999999,300.5" variable="" variablestringformat="" />
+    <SlotClass id="IDe1d48cc2d6434ae6bf6a2773d0bb5369" name="Order_Details" defaultValue="" inputType="xml" slotType="Output" location="378.8,297.3" variable="" variablestringformat="" />
+  </slots>
+</WorkflowClass>

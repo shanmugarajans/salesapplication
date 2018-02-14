@@ -1,0 +1,48 @@
+﻿<WorkflowClass classID="IDb28088e35f7d41c484cf790a306c7563" classRelease="2018-02-13T16:02:29.8074301Z" name="Load_CSV_Data" xmlVersion="0.2" owner="APAC" path="" description="">
+  <comments>
+    <Comment id="ID0fe9314cdd554383b964a7cc9e966c41" text="Employees" location="139.126315789474,107.2" size="100,100" />
+    <Comment id="ID69468006abe24ae5bcd97b3b765b366e" text="Suppliers" location="333.526315789474,115.2" size="100,100" />
+    <Comment id="ID92833f9c5ed9407d8d01644fac8816f3" text="Prod Categories" location="508.726315789474,106.4" size="100,100" />
+  </comments>
+  <modules>
+    <ModulInst id="0" classID="255" ClassName="CSVImporter" location="145,160">
+      <slots>
+        <SlotInst id="14400c4e655d8a946f2fba8ee453f14b87657d6f" value="&quot;" />
+        <SlotInst id="2" value="EmployeeID|LastName|FirstName|Title|TitleOfCourtesy|BirthDate|HireDate|Address|City|Region|PostalCode|Country|HomePhone|Extension|Photo|Notes|ReportsTo|PhotoPath" />
+        <SlotInst id="3562aac43222249f30b94e117808c67373e35b79" value="false" />
+        <SlotInst id="615f0d06a3a4bbc28f62ed41ad5581d42cf7ce56" value="" />
+        <SlotInst id="660a3cafc43d5a44484c4102ce2ccbea43c97b78" value="," />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="8894f0292e268947c3cf2b99ee46f5d022891ba4" value="true" />
+        <SlotInst id="e7351a8200d2e2e3ff605f39d45f87f6d808d3d7" value="UTF8" />
+        <SlotInst id="f4ef796316d99baad8e66c3904c399f0246cc5d7" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="1" classID="255" ClassName="CSVImporter" location="336,160">
+      <slots>
+        <SlotInst id="14400c4e655d8a946f2fba8ee453f14b87657d6f" value="&quot;" />
+        <SlotInst id="2" value="SupplierID|CompanyName|ContactName|ContactTitle|Address|City|Region|PostalCode|Country|Phone|Fax|HomePage" />
+        <SlotInst id="3562aac43222249f30b94e117808c67373e35b79" value="false" />
+        <SlotInst id="615f0d06a3a4bbc28f62ed41ad5581d42cf7ce56" value="" />
+        <SlotInst id="660a3cafc43d5a44484c4102ce2ccbea43c97b78" value="," />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="8894f0292e268947c3cf2b99ee46f5d022891ba4" value="true" />
+        <SlotInst id="e7351a8200d2e2e3ff605f39d45f87f6d808d3d7" value="UTF8" />
+        <SlotInst id="f4ef796316d99baad8e66c3904c399f0246cc5d7" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="255" ClassName="CSVImporter" location="510,157">
+      <slots>
+        <SlotInst id="14400c4e655d8a946f2fba8ee453f14b87657d6f" value="&quot;" />
+        <SlotInst id="2" value="CategoryID|CategoryName|Description|Picture" />
+        <SlotInst id="3562aac43222249f30b94e117808c67373e35b79" value="false" />
+        <SlotInst id="615f0d06a3a4bbc28f62ed41ad5581d42cf7ce56" value="" />
+        <SlotInst id="660a3cafc43d5a44484c4102ce2ccbea43c97b78" value="," />
+        <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
+        <SlotInst id="8894f0292e268947c3cf2b99ee46f5d022891ba4" value="true" />
+        <SlotInst id="e7351a8200d2e2e3ff605f39d45f87f6d808d3d7" value="UTF8" />
+        <SlotInst id="f4ef796316d99baad8e66c3904c399f0246cc5d7" value="False" />
+      </slots>
+    </ModulInst>
+  </modules>
+</WorkflowClass>
