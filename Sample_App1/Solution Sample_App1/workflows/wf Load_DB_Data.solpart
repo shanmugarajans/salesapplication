@@ -8,6 +8,10 @@
   <macroEdges>
     <MacroEdge externSlot="ID1d6aea0340d84bea9458c666ca651ee6" internModule="3" internSlot="0" />
     <MacroEdge externSlot="ID6da6fff8b6b7444a922305fbaa611d60" internModule="1" internSlot="0" />
+    <MacroEdge externSlot="ID8f9acf2c996b4b1798c1acd0a8d1e67f" internModule="0" internSlot="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" />
+    <MacroEdge externSlot="ID8f9acf2c996b4b1798c1acd0a8d1e67f" internModule="1" internSlot="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" />
+    <MacroEdge externSlot="ID8f9acf2c996b4b1798c1acd0a8d1e67f" internModule="2" internSlot="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" />
+    <MacroEdge externSlot="ID8f9acf2c996b4b1798c1acd0a8d1e67f" internModule="3" internSlot="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" />
     <MacroEdge externSlot="IDdcd4247720294977ac6a9909a25434e6" internModule="0" internSlot="0" />
     <MacroEdge externSlot="IDe1d48cc2d6434ae6bf6a2773d0bb5369" internModule="2" internSlot="0" />
   </macroEdges>
@@ -52,6 +56,7 @@
   <slots>
     <SlotClass id="ID1d6aea0340d84bea9458c666ca651ee6" name="Products" defaultValue="" inputType="xml" slotType="Output" location="552.4,294.9" variable="" variablestringformat="" />
     <SlotClass id="ID6da6fff8b6b7444a922305fbaa611d60" name="Orders" defaultValue="" inputType="xml" slotType="Output" location="216.4,298.1" variable="" variablestringformat="" />
+    <SlotClass id="ID8f9acf2c996b4b1798c1acd0a8d1e67f" name="IDc84b65e95efe462db54c7dade5fd5bfc_0" defaultValue="" inputType="string" slotType="Parameter" location="228.8,11.2" variable="IDc84b65e95efe462db54c7dade5fd5bfc" variablestringformat="{0}" />
     <SlotClass id="IDdcd4247720294977ac6a9909a25434e6" name="Customer" defaultValue="" inputType="xml" slotType="Output" location="9.59999999999999,300.5" variable="" variablestringformat="" />
     <SlotClass id="IDe1d48cc2d6434ae6bf6a2773d0bb5369" name="Order_Details" defaultValue="" inputType="xml" slotType="Output" location="378.8,297.3" variable="" variablestringformat="" />
   </slots>
