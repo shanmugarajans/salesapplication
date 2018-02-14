@@ -1,0 +1,6 @@
+﻿<SNStaticStringAttribute xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <Modifier>0</Modifier>
+  <SNAttributeClassID>00000000-0000-0000-0000-000000000013</SNAttributeClassID>
+  <SNClassID>00000000-0000-0000-0000-000000000001</SNClassID>
+  <content>00000000-0000-0000-0000-000000000014</content>
+</SNStaticStringAttribute>

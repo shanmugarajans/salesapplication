@@ -1,0 +1,47 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableRowOps.Sort_RamSQL, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableRowOps.Sort_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>InputTable</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableRowOps.Sort_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableSortConfig[], SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>SortDirection</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>aac06c66-22b3-6a18-26f9-5a26423b2a25</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>RamSQL</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>Sorts all rows of the InputTable</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableRowOps.Sort_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Table</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

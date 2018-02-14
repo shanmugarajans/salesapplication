@@ -1,0 +1,29 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>BaseTabModules.UserNameModule.GetWorkflowId</FunctionFullName>
+  <Inputs />
+  <InternalServerID>00a3b200-5676-483f-e657-e823e270ea70</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>TabUtils</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>BaseTabModules.UserNameModule.GetWorkflowId</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>NewHeader</Key>
+          <Value>WorkflowId&gt;StringType</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>output</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

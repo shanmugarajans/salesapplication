@@ -1,0 +1,34 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FullTextValueCreation.FtAndDist, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FullTextValueCreation.FtAndDist, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FtOperator[], SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>ChildTrees</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>5092616f-055b-8359-f7aa-9c86c53e628d</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>FullTextTreeOperator</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FullTextValueCreation.FtAndDist, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FtAndDistOperator, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>FtOperatorTree</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

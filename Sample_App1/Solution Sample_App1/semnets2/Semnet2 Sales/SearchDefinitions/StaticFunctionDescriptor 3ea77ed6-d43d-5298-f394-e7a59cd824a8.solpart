@@ -1,0 +1,102 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.SearchTreeConfig[], Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>SearchConfigs</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>SemNetFullTextDistinctAttribute</Key>
+          <Value>true</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>SemNetType</Key>
+          <Value>AttributeClass</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.Guid[], mscorlib</ParameterClassDescriptionName>
+      <ParameterName>DistinctAttributes</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.OrderByAttribute[], Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>OrderByAttributes</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.RangeAttribute[], Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>RangeAttributes</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>startAt</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Int32, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:int" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">10</val>
+      </DefaultValue>
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>maxResults</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Boolean, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>exact</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>3ea77ed6-d43d-5298-f394-e7a59cd824a8</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>FullText</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextSearchConfigurator, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FulltextSearchConfig, Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>FTSearchConfig</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

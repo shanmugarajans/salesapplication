@@ -1,0 +1,66 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RelationFollower.RelationExplainAdder.AddExplainPath_1N, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RelationFollower.RelationExplainAdder.AddExplainPath_1N, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>SourceExternalID</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RelationFollower.RelationExplainAdder.AddExplainPath_1N, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>SemNetType</Key>
+          <Value>RelationClass</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.Guid, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>Relation</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RelationFollower.RelationExplainAdder.AddExplainPath_1N, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Destinations</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>012fe0c7-be62-8402-0896-ec847d28b974</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Relation Follower</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>IgnoreIncomingRelationsWhenExplain</Key>
+      <Value>True</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RelationFollower.RelationExplainAdder.AddExplainPath_1N, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

@@ -1,0 +1,88 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FulltextSearchConfig, Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>FilterSearchTreeConfigs</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>SemNetFullTextSpellCheckAttribute</Key>
+          <Value>true</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>SemNetType</Key>
+          <Value>AttributeClass</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.Guid[], mscorlib</ParameterClassDescriptionName>
+      <ParameterName>ValidationAttributes</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>SpellTerm</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.String, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:string" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">SpellResult</val>
+      </DefaultValue>
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>FixedTableColumns</Key>
+          <Value>Attributes|RankingWeight/DoubleType|Spell</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>QueryResult</Key>
+          <Value>TableName</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>TableName</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>021396fc-44ff-77e0-262c-bfed3909c83b</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>ResultReturner</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>ExecutionUsesExternalWebCall</Key>
+      <Value>True</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.SpellcheckResult, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.RResult, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>SpellResult</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

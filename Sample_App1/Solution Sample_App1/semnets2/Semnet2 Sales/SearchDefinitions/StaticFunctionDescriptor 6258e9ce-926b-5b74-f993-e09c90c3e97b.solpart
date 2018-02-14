@@ -1,0 +1,76 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.SetRange.Range, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.SetRange.Range, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Int32, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:int" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">0</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.SetRange.Range, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>StartAt</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Int32, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:int" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">10</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.SetRange.Range, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>Cnt</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>6258e9ce-926b-5b74-f993-e09c90c3e97b</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Set Operators</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>Sorts all given individuals by their ranking value (descending). Returns a subset of them starting at 0-based offset StartAt with a maximal count of Cnt</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.SetRange.Range, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

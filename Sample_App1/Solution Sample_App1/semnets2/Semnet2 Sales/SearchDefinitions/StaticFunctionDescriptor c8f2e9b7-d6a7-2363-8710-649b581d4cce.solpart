@@ -1,0 +1,191 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.StdQueryIntermediateObjects.WeightedRelation[], SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Relations</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Boolean, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:boolean" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">true</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Boolean, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>IncludeInheritance</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.String, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:string" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">SourceRank*RelationRank</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>RelationRankingFormula</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Int32, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:int" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">7</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>ClusterCnt</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.Int32, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:int" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">10</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>MaxResultsPerCluster</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansClusteringMode, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Mode</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>SemNetType</Key>
+          <Value>AttributeClass</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.Guid, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>ClusterNameAttribute</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.String, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:string" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">Result</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>QueryResult</Key>
+          <Value>TableName</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>TableName</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>c8f2e9b7-d6a7-2363-8710-649b581d4cce</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Clustering</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>Word-Clustering of DestIndividuals.ClusterNameAttribute found by Relation-Following using the RelationRankingFormula by Relation.
+In other words: The RankedIndividualLists Individuals ('StartIndividuals') is used as starting point. From all starting points all WeightedRelations in Relations will be followed to 'DestinationIndividuals'. For all followed Relations, the RankingFormula is computed.
+The result of this procedure until now can be seen as a matrix (StartIndividuals, DestinationIndividuals) with values of the RankingFormula.
+This Matrix is then clustered by kMeans, i.e. the DestinationIndividuals are clustered in ClusterCnt clusters. Each cluster has max. MaxResultsPerCluster elements.
+Finally for all resulting cluster elements the attribute ClusterNameAttribute is loaded and returned in a result table with 'directory style', i.e. ClusterName\ClusterElement.
+
+The RankingFormula uses a full fledged formula parser, which computes formulas like
+sqrt(3*ln(pi*cos(0)+1))*0.001
+Allowed operators are
+*/+-
+% = modulo
+exp(expression) = exponential function e.g. exp(3,12159)
+pow(expression;expression) = power e.g. pow(2;3) == 8
+lg(expression) = logarithm2 / base 2
+ln(expression) = logarithm naturalis / base e
+ld(expression) = logarithm10 / base 10
+pi = constant
+e = constant
+sin(expression)
+cos(expression)
+tan(expression)
+atan(expression) = arcus tangens
+abs(expression) = absolute value; e.g. abs(-1) == 1
+sqrt(expression) = square root
+sign(expression) = signum; e.g. sign(-30)==-1; sign(0)==0; sign(5)==1
+max(expression;expression) = maximal value of expression1 and expression2
+min(expression;expression) = minimal value of expression1 and expression2
+floor(expression) = cut everything after decimal point
+round(expression;expression) = round everything after decimal point of first expression: round(pi,2) = 3,14   round(e,0) = 3
+In addition to the above standard funktions, the following variables can be used
+SourceRank = ranking value of the input individual
+SourcePos = ordinal position of the source individual in the given input ranking list (1...N)
+RelationRank = ranking value of the relation individual in the semnet
+DestCnt = how many relations are pointing to the given destination individual
+TotalDestCnt = like DestCnt, but counting relations starting at any individual in the semnet
+SourceCnt = how many relations are starting at the given source individual
+SourceIndivCnt = number of individuals used as start individuals
+SourceAttribute:AttributeName = attribute value (double or long valued attribute) of an source individual (e.g. SourceAttribute:CreationTime)
+DestAttribute:AttributeName = attribute value (double or long valued attribute) of an destination individual
+
+SourceRelation = number of relations 
+</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.Clustering.kMeansRelationalClustering.kMeansRelationCluster, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.RResult, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Result</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

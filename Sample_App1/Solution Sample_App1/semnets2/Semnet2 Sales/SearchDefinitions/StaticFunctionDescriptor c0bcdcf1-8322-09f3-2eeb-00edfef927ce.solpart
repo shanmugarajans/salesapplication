@@ -1,0 +1,91 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableColumnOps.AddNumberColumnByFormula_RamSQL, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableColumnOps.AddNumberColumnByFormula_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>InputTable</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.String, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:string" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">NewColumn</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableColumnOps.AddNumberColumnByFormula_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>RamTableOutColumn</Key>
+          <Value>10</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>NewColumnName</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableColumnOps.AddNumberColumnByFormula_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>Formula</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>c0bcdcf1-8322-09f3-2eeb-00edfef927ce</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>RamSQL</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>Adds a new column with the name of NewColumnName. The content of the row is computed using a full fledged formula parser, which computes formulas like
+sqrt(3*ln(pi*cos(0)+1))*0.001
+Allowed operators are
+*/+-
+% = modulo
+exp(expression) = exponential function e.g. exp(3,12159)
+pow(expression;expression) = power e.g. pow(2;3) == 8
+lg(expression) = logarithm2 / base 2
+ln(expression) = logarithm naturalis / base e
+ld(expression) = logarithm10 / base 10
+pi = constant
+e = constant
+sin(expression)
+cos(expression)
+tan(expression)
+atan(expression) = arcus tangens
+abs(expression) = absolute value; e.g. abs(-1) == 1
+sqrt(expression) = square root
+sign(expression) = signum; e.g. sign(-30)==-1; sign(0)==0; sign(5)==1
+max(expression;expression) = maximal value of expression1 and expression2
+min(expression;expression) = minimal value of expression1 and expression2
+floor(expression) = cut everything after decimal point
+if (condition) expression else expression
+
+In addition to that, all column names with numeric content can be used as variable names.
+</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamTableColumnOps.AddNumberColumnByFormula_RamSQL, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Table</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

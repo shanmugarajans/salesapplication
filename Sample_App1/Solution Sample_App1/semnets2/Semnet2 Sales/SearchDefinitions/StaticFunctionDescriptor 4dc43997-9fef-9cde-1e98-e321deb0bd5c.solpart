@@ -1,0 +1,62 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.Union, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.Union, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.Union, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances2</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals2</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>4dc43997-9fef-9cde-1e98-e321deb0bd5c</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Set Operators</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>The set operator Union return all individuals which are in 'Individuals' OR in 'Individuals2'; if an individual is in both sets, the maximum ranking value is used</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.Union, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

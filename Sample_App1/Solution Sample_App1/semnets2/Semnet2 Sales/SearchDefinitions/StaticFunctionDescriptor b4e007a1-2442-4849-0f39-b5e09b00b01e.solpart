@@ -1,0 +1,47 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.Carrot2FulltextCluster, Semnet2FulltextAdapter</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.Carrot2FulltextCluster, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FulltextSearchConfig, Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>SearchConfig</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.Carrot2FulltextCluster, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FulltextCarrot2ClusterConfig, Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>ClusterConfig</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>b4e007a1-2442-4849-0f39-b5e09b00b01e</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Clustering</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>ExecutionUsesExternalWebCall</Key>
+      <Value>True</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.Carrot2FulltextCluster, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.StdQueryIntermediateObjects.WeightedString[], SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>WeightedStrings</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

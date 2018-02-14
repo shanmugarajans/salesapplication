@@ -1,0 +1,12 @@
+﻿<SNRelationClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <DestClassConstraint>e657a90c-1f3e-416a-ba25-4d9c66356007</DestClassConstraint>
+  <ID>a644f07e-ffe3-4e55-a2e5-cc9640756ee4</ID>
+  <InverseID>4b03bcef-f323-490a-95f4-52eeeb714648</InverseID>
+  <InverseName>Customer_placed_Order</InverseName>
+  <Name>Order_placed_by_Customer</Name>
+  <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d5p1:guid>00000000-0000-0000-0000-000000000002</d5p1:guid>
+  </Parents>
+  <RelModifier>256</RelModifier>
+  <SourceClassConstraint>15791606-c01e-4f1f-8955-fe96ac0397a6</SourceClassConstraint>
+</SNRelationClass>

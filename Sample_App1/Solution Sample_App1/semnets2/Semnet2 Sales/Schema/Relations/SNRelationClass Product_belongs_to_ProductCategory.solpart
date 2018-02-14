@@ -1,0 +1,12 @@
+﻿<SNRelationClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <DestClassConstraint>fe412286-b7e6-4b53-ac33-e38b5d280a9c</DestClassConstraint>
+  <ID>ac3c7b18-f529-4e0f-852e-f28c742bbe49</ID>
+  <InverseID>28d3c862-2b07-471e-a2de-348fd88caf06</InverseID>
+  <InverseName>ProductCategory_has_Product</InverseName>
+  <Name>Product_belongs_to_ProductCategory</Name>
+  <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d5p1:guid>00000000-0000-0000-0000-000000000002</d5p1:guid>
+  </Parents>
+  <RelModifier>256</RelModifier>
+  <SourceClassConstraint>ad59472b-c197-4d03-a58a-edb3b992fa8d</SourceClassConstraint>
+</SNRelationClass>

@@ -1,0 +1,11 @@
+﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <AttModifier>0</AttModifier>
+  <AttType>2</AttType>
+  <ClassID>00000000-0000-0000-0000-000000000001</ClassID>
+  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <ID>00000000-0000-0000-0000-000000000004</ID>
+  <JoinDefinition />
+  <Name>ExternalID</Name>
+  <isJoined>false</isJoined>
+  <isStatic>false</isStatic>
+</SNAttributeClass>

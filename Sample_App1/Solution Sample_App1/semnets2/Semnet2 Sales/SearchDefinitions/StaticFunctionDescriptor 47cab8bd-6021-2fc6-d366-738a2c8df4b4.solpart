@@ -1,0 +1,51 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextFacetRangeSearch, Semnet2FulltextAdapter</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextFacetRangeSearch, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FacetRangeAttribute[], Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>facetAttribute</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextFacetRangeSearch, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FulltextSearchConfig, Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>FacetSearchConfig</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>47cab8bd-6021-2fc6-d366-738a2c8df4b4</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>FullText</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>ExecutionUsesExternalWebCall</Key>
+      <Value>True</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>Obsolete</Key>
+      <Value>True</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>Semnet2FulltextAdapter.FulltextQuerier.FulltextFacetRangeSearch, Semnet2FulltextAdapter</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Table</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

@@ -1,0 +1,5 @@
+﻿<SNFulltextNormalizerGroup xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <GroupID>00000000-0000-0000-0001-000000000002</GroupID>
+  <Instances />
+  <Name>long</Name>
+</SNFulltextNormalizerGroup>

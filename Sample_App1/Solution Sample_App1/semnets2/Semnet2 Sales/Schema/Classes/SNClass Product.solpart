@@ -1,0 +1,8 @@
+﻿<SNClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <ClassModifier>0</ClassModifier>
+  <ID>ad59472b-c197-4d03-a58a-edb3b992fa8d</ID>
+  <Name>Product</Name>
+  <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d5p1:guid>00000000-0000-0000-0000-000000000001</d5p1:guid>
+  </Parents>
+</SNClass>

@@ -1,0 +1,5 @@
+﻿<Solution name="Sample_App1" ID="ID980d56393ffc4b829fc94463459df77c" xmlVersion="0.3">
+  <variables>
+    <Variable Id="ID45b57b17721f4b01856790850741fa34" Name="DigitalBrain" OfType="SemNet" Schema="Sales" />
+  </variables>
+</Solution>

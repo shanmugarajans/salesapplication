@@ -1,0 +1,11 @@
+﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <AttModifier>0</AttModifier>
+  <AttType>1</AttType>
+  <ClassID>dc8041f7-9ec9-4dcc-8e71-fed916356648</ClassID>
+  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <ID>d6bbd644-eee6-4fb8-99dc-8473af2419a6</ID>
+  <JoinDefinition />
+  <Name>Person_Address</Name>
+  <isJoined>false</isJoined>
+  <isStatic>false</isStatic>
+</SNAttributeClass>

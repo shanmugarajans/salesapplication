@@ -1,0 +1,11 @@
+﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <AttModifier>1048832</AttModifier>
+  <AttType>1</AttType>
+  <ClassID>00000000-0000-0000-0000-000000000001</ClassID>
+  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <ID>00000000-0000-0000-0000-000000000013</ID>
+  <JoinDefinition />
+  <Name>LongViewCard</Name>
+  <isJoined>true</isJoined>
+  <isStatic>true</isStatic>
+</SNAttributeClass>

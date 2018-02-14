@@ -1,0 +1,12 @@
+﻿<SNRelationClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <DestClassConstraint>ad59472b-c197-4d03-a58a-edb3b992fa8d</DestClassConstraint>
+  <ID>858e57b5-2524-46df-8b50-a8beb5328054</ID>
+  <InverseID>9f192c4b-f4c5-4468-bc68-f5b3b30b0f61</InverseID>
+  <InverseName>Product_mentioned_in_OrderDetails</InverseName>
+  <Name>OrderDetails_mentions_Product</Name>
+  <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d5p1:guid>00000000-0000-0000-0000-000000000002</d5p1:guid>
+  </Parents>
+  <RelModifier>256</RelModifier>
+  <SourceClassConstraint>c5ba5d34-970f-4775-9730-7b8b978586ad</SourceClassConstraint>
+</SNRelationClass>

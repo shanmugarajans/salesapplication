@@ -1,0 +1,10 @@
+﻿<SNRelationClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <DestClassConstraint>00000000-0000-0000-0000-000000000001</DestClassConstraint>
+  <ID>00000000-0000-0000-0000-000000000002</ID>
+  <InverseID>00000000-0000-0000-0000-000000000003</InverseID>
+  <InverseName>RootRelationClassInvers</InverseName>
+  <Name>RootRelationClass</Name>
+  <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <RelModifier>0</RelModifier>
+  <SourceClassConstraint>00000000-0000-0000-0000-000000000001</SourceClassConstraint>
+</SNRelationClass>

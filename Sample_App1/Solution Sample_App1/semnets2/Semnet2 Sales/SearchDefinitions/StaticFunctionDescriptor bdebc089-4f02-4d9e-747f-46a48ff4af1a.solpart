@@ -1,0 +1,100 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.RankedIntersection, SemNetCore</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.RankedIntersection, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.RankedIntersection, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances2</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals2</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue>
+        <ChildValues p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <MetaData p5:nil="true" xmlns:p5="http://www.w3.org/2001/XMLSchema-instance" />
+        <TypeFullName>System.String, mscorlib</TypeFullName>
+        <val xmlns:d8p1="http://www.w3.org/2001/XMLSchema" p6:type="d8p1:string" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">(Individual1+Individual2)/2</val>
+      </DefaultValue>
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.RankedIntersection, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>RankingFormula</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>bdebc089-4f02-4d9e-747f-46a48ff4af1a</InternalServerID>
+  <IsPublic>false</IsPublic>
+  <MacroDefinition p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <MetaData>
+    <KeyValue>
+      <Key>DisplayPath</Key>
+      <Value>Set Operators</Value>
+    </KeyValue>
+    <KeyValue>
+      <Key>HelpText</Key>
+      <Value>The set operator Intersection returns all individuals which are in 'Individuals' AND in 'Individuals2'; ranking weights are computed by the 'RankingFormula'. 
+The RankingFormula uses a full fledged formula parser, which computes formulas like
+sqrt(3*ln(pi*cos(0)+1))*0.001
+Allowed operators are
+*/+-
+% = modulo
+exp(expression) = exponential function e.g. exp(3,12159)
+pow(expression;expression) = power e.g. pow(2;3) == 8
+lg(expression) = logarithm2 / base 2
+ln(expression) = logarithm naturalis / base e
+ld(expression) = logarithm10 / base 10
+pi = constant
+e = constant
+sin(expression)
+cos(expression)
+tan(expression)
+atan(expression) = arcus tangens
+abs(expression) = absolute value; e.g. abs(-1) == 1
+sqrt(expression) = square root
+sign(expression) = signum; e.g. sign(-30)==-1; sign(0)==0; sign(5)==1
+max(expression;expression) = maximal value of expression1 and expression2
+min(expression;expression) = minimal value of expression1 and expression2
+floor(expression) = cut everything after decimal point
+round(expression;expression) = round everything after decimal point of first expression: round(pi,2) = 3,14   round(e,0) = 3
+In addition to the above mentioned standard functions the following variables can be used: 'Individual1' and 'Individual2' = RankID of intersected Individual or Individual2</Value>
+    </KeyValue>
+  </MetaData>
+  <Outputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>ConWeaver.SemNet.Core.QueryOperators.SetOperators.RankedIndividualListSetOperators.RankedIntersection, SemNetCore</FunctionFullName>
+      <InternalVariableName p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>DisplayName</Key>
+          <Value>Instances</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</ParameterClassDescriptionName>
+      <ParameterName>Individuals</ParameterName>
+    </FunctionParameterDescriptor>
+  </Outputs>
+</StaticFunctionDescriptor>

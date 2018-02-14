@@ -1,0 +1,4 @@
+﻿<Schema xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <Searches p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <ViewCardAttributes p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+</Schema>

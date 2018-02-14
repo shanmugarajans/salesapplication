@@ -1,0 +1,11 @@
+﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <AttModifier>0</AttModifier>
+  <AttType>10</AttType>
+  <ClassID>ad59472b-c197-4d03-a58a-edb3b992fa8d</ClassID>
+  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <ID>81d67d4a-e554-4bea-96db-f0db6fa94461</ID>
+  <JoinDefinition />
+  <Name>Product_UnitPrice</Name>
+  <isJoined>false</isJoined>
+  <isStatic>false</isStatic>
+</SNAttributeClass>
