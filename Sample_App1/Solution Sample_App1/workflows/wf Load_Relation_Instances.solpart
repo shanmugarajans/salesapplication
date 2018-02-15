@@ -15,8 +15,8 @@
     <ModulInst id="0" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="130,143">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="OrdProdid" />
-        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="Ord_dtl_Id_Prefix" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="Ord_Id_Prefix" />
         <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
         <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_contains_OrderDetails" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
@@ -25,8 +25,8 @@
     <ModulInst id="1" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="367,144">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="CustomerID" />
-        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="Cust_Id_Prefix" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="Ord_Id_Prefix" />
         <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
         <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_placed_by_Customer" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
@@ -35,8 +35,8 @@
     <ModulInst id="2" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="563,141">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="EmployeeID" />
-        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrderID" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="Emp_Id_Prefix" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="Ord_Id_Prefix" />
         <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
         <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="Order_created_by_Employee" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
@@ -45,8 +45,8 @@
     <ModulInst id="3" classID="9b6ef679f927f63d6feeeddb29b0aee572fbc30f" ClassName="RelationImporter" location="756,138">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="ProductID" />
-        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="OrdProdid" />
+        <SlotInst id="1cfea60d2169f736747493fb509f384fbb34b3ec" value="Prd_Id_Prefix" />
+        <SlotInst id="297b60a8905d623c7393d6be2a63a914d3559338" value="Ord_dtl_Id_Prefix" />
         <SlotInst id="2ae1a3ca6bb57d0301a323d5b2e3f6c286ae8788" value="" />
         <SlotInst id="9c01ae7d94f1a6779de6c02e219d7b33ac1769e7" value="OrderDetails_mentions_Product" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
