@@ -98,7 +98,7 @@
     <ModulInst id="0" classID="d817310a2c9e1bd80990dbfbd40a5695f2b3503a" ClassName="InstanceImporter" location="97,506">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=CompanyName&gt;AttributeClassID=300edcc40a4841a09f6a9cce9de6fc59&gt;AttributeClassName=Customer_CompanyName|ColumnName=ContactName&gt;AttributeClassID=956adcc64d99429999924b8b4a8ae591&gt;AttributeClassName=Customer_ContactName|ColumnName=ContactTitle&gt;AttributeClassID=a41f744a5b1049edb9b5ff3e58d6185d&gt;AttributeClassName=Customer_ContactTitle|" />
+        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=CompanyName&gt;AttributeClassID=300edcc40a4841a09f6a9cce9de6fc59&gt;AttributeClassName=Customer_CompanyName|ColumnName=ContactName&gt;AttributeClassID=956adcc64d99429999924b8b4a8ae591&gt;AttributeClassName=Customer_ContactName|ColumnName=ContactTitle&gt;AttributeClassID=a41f744a5b1049edb9b5ff3e58d6185d&gt;AttributeClassName=Customer_ContactTitle|ColumnName=CustomerID&gt;AttributeClassID=c6822939a5bd48fea3d7335d3fb15dbc&gt;AttributeClassName=Person_ID|" />
         <SlotInst id="beb1c13765b9936ae0c0d7d6ff4667fbaddb6e9a" value="Cust_Id_Prefix" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
         <SlotInst id="eeec90853fc9b89566dd858a99cee46219c6fb39" value="Customer" />
@@ -107,7 +107,7 @@
     <ModulInst id="1" classID="d817310a2c9e1bd80990dbfbd40a5695f2b3503a" ClassName="InstanceImporter" location="291,505">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=FirstName&gt;AttributeClassID=8f8cfd24ff594651b23dd7978cd08104&gt;AttributeClassName=Employee_FirstName|ColumnName=&gt;AttributeClassID=a3ba2aedfe15474d8a2da6a49d1680b1&gt;AttributeClassName=Employee_HireDate|ColumnName=LastName&gt;AttributeClassID=8d6cf3a331ce41a8bf74986d1902f441&gt;AttributeClassName=Employee_LastName|ColumnName=Title&gt;AttributeClassID=ba82261dff964b78986602b1790030bf&gt;AttributeClassName=Employee_Title|" />
+        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=FirstName&gt;AttributeClassID=8f8cfd24ff594651b23dd7978cd08104&gt;AttributeClassName=Employee_FirstName|ColumnName=LastName&gt;AttributeClassID=8d6cf3a331ce41a8bf74986d1902f441&gt;AttributeClassName=Employee_LastName|ColumnName=Title&gt;AttributeClassID=ba82261dff964b78986602b1790030bf&gt;AttributeClassName=Employee_Title|ColumnName=EmployeeID&gt;AttributeClassID=c6822939a5bd48fea3d7335d3fb15dbc&gt;AttributeClassName=Person_ID|" />
         <SlotInst id="beb1c13765b9936ae0c0d7d6ff4667fbaddb6e9a" value="Emp_Id_Prefix" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
         <SlotInst id="eeec90853fc9b89566dd858a99cee46219c6fb39" value="Employee" />
@@ -116,7 +116,7 @@
     <ModulInst id="2" classID="d817310a2c9e1bd80990dbfbd40a5695f2b3503a" ClassName="InstanceImporter" location="480,506">
       <slots>
         <SlotInst id="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=OrderDate&gt;AttributeClassID=c9fcea15695245039ec5dc430f7301ca&gt;AttributeClassName=Order_Date|" />
+        <SlotInst id="72e9c977e5474bed40824e0ad7b2bb054eef2d7e" value="ColumnName=OrderDate&gt;AttributeClassID=c9fcea15695245039ec5dc430f7301ca&gt;AttributeClassName=Order_Date|ColumnName=OrderID&gt;AttributeClassID=b34b0e9a9bd84b2ba6509b29692e6db7&gt;AttributeClassName=Order_ID|" />
         <SlotInst id="beb1c13765b9936ae0c0d7d6ff4667fbaddb6e9a" value="Ord_Id_Prefix" />
         <SlotInst id="d06d55570938d12f87db3bf2b48caa9de22d9c67" value="" />
         <SlotInst id="eeec90853fc9b89566dd858a99cee46219c6fb39" value="Order" />
@@ -162,7 +162,7 @@
   <slots>
     <SlotClass id="ID03fd8cbeb9e64f4580827d855252b55a" name="Orde" defaultValue="" inputType="xml" slotType="Output" location="493.6,654.8" variable="" variablestringformat="" />
     <SlotClass id="ID0a4207c8c08a4822ad32d18e110818b2" name="Ord_Details" defaultValue="" inputType="xml" slotType="Output" location="664.8,650" variable="" variablestringformat="" />
-    <SlotClass id="ID166623e060cc49ef82f7b09cc1da5913" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="517.4,812.8" variable="ID45b57b17721f4b01856790850741fa34" variablestringformat="{0}" />
+    <SlotClass id="ID166623e060cc49ef82f7b09cc1da5913" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="517.4,812.8" variable="ID9683b594c79d4a18b20ecd9329e0d84a" variablestringformat="{0}" />
     <SlotClass id="ID4418c85fa3ea4db2bc630770f7f81edd" name="Order_Details" defaultValue="" inputType="xml" slotType="Input" location="661,271.2" variable="" variablestringformat="" />
     <SlotClass id="ID47ebb79bd8b64fed829f869682d0af50" name="Supplier" defaultValue="" inputType="xml" slotType="Output" location="1163.2,634.8" variable="" variablestringformat="" />
     <SlotClass id="ID4e4715537f8941b1a635006bb054b227" name="Customers" defaultValue="" inputType="xml" slotType="Input" location="104,276.4" variable="" variablestringformat="" />

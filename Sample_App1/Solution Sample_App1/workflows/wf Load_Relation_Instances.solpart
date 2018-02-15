@@ -64,7 +64,7 @@
     </ModulInst>
   </modules>
   <slots>
-    <SlotClass id="ID0a01e603afc44d25893986de3be8bed8" name="ID45b57b17721f4b01856790850741fa34_0" defaultValue="" inputType="semnet" slotType="Parameter" location="756,375.2" variable="ID45b57b17721f4b01856790850741fa34" variablestringformat="{0}" />
+    <SlotClass id="ID0a01e603afc44d25893986de3be8bed8" name="ID45b57b17721f4b01856790850741fa34_0" defaultValue="" inputType="semnet" slotType="Parameter" location="756,375.2" variable="ID9683b594c79d4a18b20ecd9329e0d84a" variablestringformat="{0}" />
     <SlotClass id="ID244cd6b6b00f4ffeab0e99bb57524dba" name="Prod_B_Category" defaultValue="" inputType="xml" slotType="Input" location="918,45.7" variable="" variablestringformat="" />
     <SlotClass id="ID5f228542f9dd458e88a9db43632ae9c5" name="Ord_M_Prod" defaultValue="" inputType="xml" slotType="Input" location="746,47.3" variable="" variablestringformat="" />
     <SlotClass id="ID72c922d02cbd4454bb5766e5e31e028c" name="Emp_C_Order" defaultValue="" inputType="xml" slotType="Input" location="559.6,49.7" variable="" variablestringformat="" />
