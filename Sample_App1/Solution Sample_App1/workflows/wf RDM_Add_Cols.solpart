@@ -1,0 +1,62 @@
+﻿<WorkflowClass classID="ID05bf20ce399149c4b4ab8cf6e28bb6d4" classRelease="2018-02-15T14:52:49.7437277Z" name="RDM_Add_Cols" xmlVersion="0.2" owner="APAC" path="" description="">
+  <edges>
+    <Edge fromModule="3" fromSlot="modified" toModule="7" toSlot="d27a1f11771200949714b1af99f048a416f5d6f4" />
+    <Edge fromModule="4" fromSlot="modified" toModule="7" toSlot="12c0f1fbadc4046b5f2bb9e063b227ef8750d9d6" />
+    <Edge fromModule="5" fromSlot="transacton" toModule="6" toSlot="transaction" />
+    <Edge fromModule="5" fromSlot="transacton" toModule="8" toSlot="transaction" />
+    <Edge fromModule="7" fromSlot="1029d67644815d428f554e390aa966d57a0b29b8" toModule="8" toSlot="input" />
+  </edges>
+  <macroEdges>
+    <MacroEdge externSlot="ID39148bed667a4c40b08e2b1902a78c40" internModule="3" internSlot="transaction" />
+    <MacroEdge externSlot="ID39148bed667a4c40b08e2b1902a78c40" internModule="4" internSlot="transaction" />
+  </macroEdges>
+  <modules>
+    <ModulInst id="8" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="156,416">
+      <slots>
+        <SlotInst id="idcolumn" value="Prd_Id_Prefix" />
+        <SlotInst id="table" value="Product" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="57,68">
+      <slots>
+        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Discontinued|Picture|Prd_cat_Id_Prefix|Prd_Id_Prefix|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Product" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="4" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="242,71">
+      <slots>
+        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Picture|Prd_cat_Id_Prefix|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Product_Category" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="7" classID="83c6b9c69328f509964273870a3db9ea30eacbb9" ClassName="Join" location="138,226">
+      <slots>
+        <SlotInst id="1d7bfd8b87dd1784f6666ad047cbf1e8ce5e07ca" value="CategoryID" />
+        <SlotInst id="3a633f0c9eb36aa8621e016a29f6b27f83e3522a" value="False" />
+        <SlotInst id="e78fe7049341b36116d8054f5a3e00d01f245fcc" value="Inner" />
+        <SlotInst id="ec0944b40fb452316c1cd3530ba38e6f96bed92a" value="CategoryID" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="5" classID="a5797a5746c0a31fc46126b4aecbd2c48a3c68a2" ClassName="RDM_StartWriteTransaction" location="444,326">
+      <slots>
+        <SlotInst id="dsn" value="Order_Database" />
+        <SlotInst id="mode" value="Full" />
+        <SlotInst id="server" value="localhost" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="6" classID="e2b48928bccc2a4f167b4179bcfcb1769d1a4a4e" ClassName="RDM_CommitWriteTransaction" location="440,494">
+      <slots>
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <slots>
+    <SlotClass id="ID39148bed667a4c40b08e2b1902a78c40" name="Transaction" defaultValue="" inputType="xml" slotType="Input" location="175.2,5.09999999999997" variable="" variablestringformat="" />
+  </slots>
+  <timeEdges>
+    <TimeEdge from="7" to="5" />
+    <TimeEdge from="8" to="6" />
+  </timeEdges>
+</WorkflowClass>
