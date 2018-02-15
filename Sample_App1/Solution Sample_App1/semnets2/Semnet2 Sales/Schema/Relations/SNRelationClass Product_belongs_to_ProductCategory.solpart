@@ -7,6 +7,6 @@
   <Parents xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
     <d5p1:guid>00000000-0000-0000-0000-000000000002</d5p1:guid>
   </Parents>
-  <RelModifier>256</RelModifier>
+  <RelModifier>512</RelModifier>
   <SourceClassConstraint>ad59472b-c197-4d03-a58a-edb3b992fa8d</SourceClassConstraint>
 </SNRelationClass>
