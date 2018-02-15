@@ -18,7 +18,7 @@
   <modules>
     <ModulInst id="0" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="18,180">
       <slots>
-        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="CustomerID|CompanyName|ContactName|ContactTitle|Address|City|Region|PostalCode|Country|Phone|Fax" />
         <SlotInst id="3" value="SELECT TOP 1000 [CustomerID],[CompanyName],[ContactName],[ContactTitle],[Address],[City],[Region],[PostalCode],[Country],[Phone],[Fax] FROM [NORTHWND].[dbo].[Customers]" />
         <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
         <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
@@ -27,7 +27,7 @@
     </ModulInst>
     <ModulInst id="1" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="201,184">
       <slots>
-        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="OrderID|CustomerID|EmployeeID|OrderDate|RequiredDate|ShippedDate|ShipVia|Freight|ShipName|ShipAddress|ShipCity|ShipRegion|ShipPostalCode|ShipCountry" />
         <SlotInst id="3" value="SELECT TOP 1000 [OrderID],[CustomerID],[EmployeeID],[OrderDate],[RequiredDate],[ShippedDate],[ShipVia],[Freight],[ShipName],[ShipAddress],[ShipCity],[ShipRegion],[ShipPostalCode],[ShipCountry] FROM [NORTHWND].[dbo].[Orders]" />
         <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
         <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
@@ -36,7 +36,7 @@
     </ModulInst>
     <ModulInst id="2" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="368,184">
       <slots>
-        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="OrderID|ProductID|UnitPrice|Quantity|Discount|OrdProdid" />
         <SlotInst id="3" value="SELECT TOP 1000 [OrderID],[ProductID],[UnitPrice],[Quantity],[Discount],cast([OrderID] as varchar(20))+cast([ProductID]  as varchar(20))  as OrdProdid FROM [NORTHWND].[dbo].[Order Details]" />
         <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
         <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />
@@ -45,7 +45,7 @@
     </ModulInst>
     <ModulInst id="3" classID="2f98a747-68eb-4573-a5d9-2f053f72a6cb" ClassName="SQLExporterConString" location="540,184">
       <slots>
-        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="" />
+        <SlotInst id="26b47e3d825258ae534f85838d81e93ddd46db1f" value="ProductID|ProductName|SupplierID|CategoryID|QuantityPerUnit|UnitPrice|UnitsInStock|UnitsOnOrder|ReorderLevel|Discontinued" />
         <SlotInst id="3" value="SELECT TOP 1000 [ProductID],[ProductName],[SupplierID],[CategoryID],[QuantityPerUnit],[UnitPrice],[UnitsInStock],[UnitsOnOrder],[ReorderLevel],[Discontinued] FROM [NORTHWND].[dbo].[Products]" />
         <SlotInst id="791e439f2bf43c8a2a77160af0017f064cf47d9d" value="Test" />
         <SlotInst id="e272e5a7-9e8c-463f-bc28-98d6d8fc2567" value="Driver={SQL Server};Server=CGSCLRD48589630\SQLEXPRESS;Database=NORTHWND;User Id=APAC\PUSARYA;Password=Yatee@241016;" />

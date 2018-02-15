@@ -25,7 +25,7 @@
     </ModulInst>
     <ModulInst id="1" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="305,105">
       <slots>
-        <SlotInst id="outcolumns" value="Address|BirthDate|City|Country|EmployeeID|Extension|FirstName|HireDate|HomePhone|LastName|Notes|PhotoPath|PostalCode|Region|ReportsTo|Title|TitleOfCourtesy|_RDM_ID" />
+        <SlotInst id="outcolumns" value="EmployeeID|FirstName|LastName|Title|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Employee" />
       </slots>
