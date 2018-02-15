@@ -1,44 +1,108 @@
 ﻿<WorkflowClass classID="ID2d3cf28c775f4aaca2e2c2a3ac51acc6" classRelease="2018-02-13T17:06:00.1019813Z" name="Load_RDM" xmlVersion="0.2" owner="APAC" path="" description="">
   <edges>
+    <Edge fromModule="0" fromSlot="ID1d6aea0340d84bea9458c666ca651ee6" toModule="5" toSlot="input" />
     <Edge fromModule="0" fromSlot="ID6da6fff8b6b7444a922305fbaa611d60" toModule="3" toSlot="input" />
     <Edge fromModule="0" fromSlot="IDdcd4247720294977ac6a9909a25434e6" toModule="2" toSlot="input" />
     <Edge fromModule="0" fromSlot="IDe1d48cc2d6434ae6bf6a2773d0bb5369" toModule="4" toSlot="input" />
+    <Edge fromModule="10" fromSlot="ID74b21059755141a5b4eed96a69bc6996" toModule="9" toSlot="input" />
+    <Edge fromModule="10" fromSlot="ID7b1fbce5304c4a34be7047a40dc74233" toModule="7" toSlot="input" />
+    <Edge fromModule="10" fromSlot="IDd17b50035f8b49f49cec4d45bd354cb3" toModule="8" toSlot="input" />
   </edges>
+  <macroEdges>
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="2" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="3" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="4" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="5" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="7" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="8" internSlot="dsn" />
+    <MacroEdge externSlot="IDdb9037f1943642b9a2c28ce75835fe66" internModule="9" internSlot="dsn" />
+  </macroEdges>
   <modules>
-    <ModulInst id="0" classID="ID943816726b81430db7dd479bc975623d" ClassName="Load_DB_Data" location="156,153">
-      <slots />
-    </ModulInst>
-    <ModulInst id="1" classID="IDb28088e35f7d41c484cf790a306c7563" ClassName="Load_CSV_Data" location="350,155" />
-    <ModulInst id="2" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="129,272">
+    <ModulInst id="0" classID="ID943816726b81430db7dd479bc975623d" ClassName="Load_DB_Data" location="293,551">
       <slots>
-        <SlotInst id="dsn" value="" />
+        <SlotInst id="ID8f9acf2c996b4b1798c1acd0a8d1e67f" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="10" classID="IDb28088e35f7d41c484cf790a306c7563" ClassName="Load_CSV_Data" location="285,135">
+      <slots>
+        <SlotInst id="ID4db81a7a03cc41f8be4cc1553b5c48f3" />
+        <SlotInst id="ID61ef417f669a46c2875b723c4fe9600a" />
+        <SlotInst id="IDfb98540bdaee47caaa6f000707332cea" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="44,704">
+      <slots>
+        <SlotInst id="dsn" />
         <SlotInst id="idcolumn" value="CustomerID" />
         <SlotInst id="server" value="" />
         <SlotInst id="table" value="Customer" />
         <SlotInst id="writestatistics" value="False" />
       </slots>
     </ModulInst>
-    <ModulInst id="3" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="332,271">
+    <ModulInst id="3" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="231,710">
       <slots>
-        <SlotInst id="dsn" value="" />
+        <SlotInst id="dsn" />
         <SlotInst id="idcolumn" value="OrderID" />
         <SlotInst id="server" value="" />
         <SlotInst id="table" value="Orders" />
         <SlotInst id="writestatistics" value="False" />
       </slots>
     </ModulInst>
-    <ModulInst id="4" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="507,275">
+    <ModulInst id="4" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="401,709">
       <slots>
-        <SlotInst id="dsn" value="" />
+        <SlotInst id="dsn" />
         <SlotInst id="idcolumn" value="OrdProdid" />
         <SlotInst id="server" value="" />
         <SlotInst id="table" value="Order_Details" />
         <SlotInst id="writestatistics" value="False" />
       </slots>
     </ModulInst>
+    <ModulInst id="5" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="580,705">
+      <slots>
+        <SlotInst id="dsn" />
+        <SlotInst id="idcolumn" value="ProductID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Product" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="7" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="292,257">
+      <slots>
+        <SlotInst id="dsn" />
+        <SlotInst id="idcolumn" value="SupplierID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Suppliers" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="8" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="505,259">
+      <slots>
+        <SlotInst id="dsn" />
+        <SlotInst id="idcolumn" value="CategoryID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Product_Category" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="9" classID="b597bf826b5c922ffae2a3f8bd66d9c57de3fe24" ClassName="RDM_WriteFull" location="93,253">
+      <slots>
+        <SlotInst id="dsn" />
+        <SlotInst id="idcolumn" value="EmployeeID" />
+        <SlotInst id="server" value="" />
+        <SlotInst id="table" value="Employee" />
+        <SlotInst id="writestatistics" value="False" />
+      </slots>
+    </ModulInst>
   </modules>
+  <slots>
+    <SlotClass id="IDdb9037f1943642b9a2c28ce75835fe66" name="ID9e398762b00d492f98694b9a92878cb3_0" defaultValue="" inputType="rdmds" slotType="Parameter" location="302.4,435.2" variable="ID9e398762b00d492f98694b9a92878cb3" variablestringformat="{0}" />
+  </slots>
   <timeEdges>
     <TimeEdge from="2" to="3" />
     <TimeEdge from="3" to="4" />
+    <TimeEdge from="4" to="5" />
+    <TimeEdge from="7" to="8" />
+    <TimeEdge from="8" to="0" />
+    <TimeEdge from="9" to="7" />
   </timeEdges>
 </WorkflowClass>

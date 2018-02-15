@@ -1,0 +1,79 @@
+﻿<WorkflowClass classID="ID598444bf52074f0c9ab079ba4e14a170" classRelease="2018-02-14T16:45:00.8859732Z" name="Read_RDM_Start" xmlVersion="0.2" owner="APAC" path="" description="">
+  <macroEdges>
+    <MacroEdge externSlot="ID0be2e4b88a3d4766ab0a7088a1062974" internModule="6" internSlot="modified" />
+    <MacroEdge externSlot="ID0d093f62496c4a0eb5da74cd3a9f5c3f" internModule="2" internSlot="modified" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="0" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="1" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="2" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="3" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="4" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="5" internSlot="transaction" />
+    <MacroEdge externSlot="ID17e111c915fe4976b71dced4ca45f060" internModule="6" internSlot="transaction" />
+    <MacroEdge externSlot="ID255a6650b1df4a379dd46eb292a87ade" internModule="5" internSlot="modified" />
+    <MacroEdge externSlot="ID59ecdfa3f78749a3acec000619020a07" internModule="4" internSlot="modified" />
+    <MacroEdge externSlot="ID8880a03da2a94f77847ee5ddfbd79df6" internModule="0" internSlot="modified" />
+    <MacroEdge externSlot="ID99e685f162fc49548a73eab57dcb5c5d" internModule="3" internSlot="modified" />
+    <MacroEdge externSlot="IDf36875cb447b40499b41a52ef621ac7d" internModule="1" internSlot="modified" />
+  </macroEdges>
+  <modules>
+    <ModulInst id="0" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="100,105">
+      <slots>
+        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|CustomerID|Fax|Phone|PostalCode|Region|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Customer" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="1" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="305,105">
+      <slots>
+        <SlotInst id="outcolumns" value="Address|BirthDate|City|Country|EmployeeID|Extension|FirstName|HireDate|HomePhone|LastName|Notes|PhotoPath|PostalCode|Region|ReportsTo|Title|TitleOfCourtesy|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Employee" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="498,105">
+      <slots>
+        <SlotInst id="outcolumns" value="CustomerID|EmployeeID|Freight|OrderDate|OrderID|RequiredDate|ShipAddress|ShipCity|ShipCountry|ShipName|ShippedDate|ShipPostalCode|ShipRegion|ShipVia|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Orders" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="831,101">
+      <slots>
+        <SlotInst id="outcolumns" value="CategoryID|Discontinued|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Product" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="4" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="992,103">
+      <slots>
+        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Picture|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Product_Category" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="5" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="1151,100">
+      <slots>
+        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|Fax|HomePage|Phone|PostalCode|Region|SupplierID|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Suppliers" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="6" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="666,105">
+      <slots>
+        <SlotInst id="outcolumns" value="Discount|OrderID|OrdProdid|ProductID|Quantity|UnitPrice|_RDM_ID" />
+        <SlotInst id="runmode" value="Main" />
+        <SlotInst id="table" value="Order_Details" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <slots>
+    <SlotClass id="ID0be2e4b88a3d4766ab0a7088a1062974" name="OrderDetails" defaultValue="" inputType="xml" slotType="Output" location="681.6,292.4" variable="" variablestringformat="" />
+    <SlotClass id="ID0d093f62496c4a0eb5da74cd3a9f5c3f" name="Orders" defaultValue="" inputType="xml" slotType="Output" location="497.6,293.2" variable="" variablestringformat="" />
+    <SlotClass id="ID17e111c915fe4976b71dced4ca45f060" name="Transaction" defaultValue="" inputType="xml" slotType="Input" location="110,10" variable="" variablestringformat="" />
+    <SlotClass id="ID255a6650b1df4a379dd46eb292a87ade" name="Suppliers" defaultValue="" inputType="xml" slotType="Output" location="1168,291.6" variable="" variablestringformat="" />
+    <SlotClass id="ID59ecdfa3f78749a3acec000619020a07" name="Product_Details" defaultValue="" inputType="xml" slotType="Output" location="1003.2,294.8" variable="" variablestringformat="" />
+    <SlotClass id="ID8880a03da2a94f77847ee5ddfbd79df6" name="Customer" defaultValue="" inputType="xml" slotType="Output" location="96,294" variable="" variablestringformat="" />
+    <SlotClass id="ID99e685f162fc49548a73eab57dcb5c5d" name="Product" defaultValue="" inputType="xml" slotType="Output" location="845.6,290" variable="" variablestringformat="" />
+    <SlotClass id="IDf36875cb447b40499b41a52ef621ac7d" name="Employee" defaultValue="" inputType="xml" slotType="Output" location="306.4,294" variable="" variablestringformat="" />
+  </slots>
+</WorkflowClass>
