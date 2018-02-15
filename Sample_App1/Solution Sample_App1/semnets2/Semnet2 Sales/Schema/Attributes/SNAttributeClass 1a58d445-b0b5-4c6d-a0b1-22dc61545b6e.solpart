@@ -1,0 +1,24 @@
+﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
+  <AttModifier>1049088</AttModifier>
+  <AttType>1</AttType>
+  <ClassID>15791606-c01e-4f1f-8955-fe96ac0397a6</ClassID>
+  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <ID>1a58d445-b0b5-4c6d-a0b1-22dc61545b6e</ID>
+  <JoinDefinition>
+    <SNJoinedAttributeClass>
+      <AttributeClass>00000000-0000-0000-0000-000000000004</AttributeClass>
+      <PositionInJoin>0</PositionInJoin>
+      <Relation2Follow>00000000-0000-0000-0000-000000000000</Relation2Follow>
+      <Relation2FollowSecond>00000000-0000-0000-0000-000000000000</Relation2FollowSecond>
+    </SNJoinedAttributeClass>
+    <SNJoinedAttributeClass>
+      <AttributeClass>c9fcea15-6952-4503-9ec5-dc430f7301ca</AttributeClass>
+      <PositionInJoin>1</PositionInJoin>
+      <Relation2Follow>00000000-0000-0000-0000-000000000000</Relation2Follow>
+      <Relation2FollowSecond>00000000-0000-0000-0000-000000000000</Relation2FollowSecond>
+    </SNJoinedAttributeClass>
+  </JoinDefinition>
+  <Name>1a58d445-b0b5-4c6d-a0b1-22dc61545b6e</Name>
+  <isJoined>true</isJoined>
+  <isStatic>false</isStatic>
+</SNAttributeClass>
