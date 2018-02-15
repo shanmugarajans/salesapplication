@@ -1,8 +1,8 @@
 ﻿<SNAttributeClass xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface">
-  <AttModifier>1049088</AttModifier>
+  <AttModifier>1053184</AttModifier>
   <AttType>1</AttType>
   <ClassID>15791606-c01e-4f1f-8955-fe96ac0397a6</ClassID>
-  <FullTextNormalizerGroup>00000000-0000-0000-0000-000000000000</FullTextNormalizerGroup>
+  <FullTextNormalizerGroup>00000000-0000-0000-0001-000000000001</FullTextNormalizerGroup>
   <ID>b8779df5-57c8-4a62-84b5-82f3bb1c64ca</ID>
   <JoinDefinition>
     <SNJoinedAttributeClass>
