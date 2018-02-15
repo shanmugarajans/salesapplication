@@ -9,20 +9,13 @@
     <Edge fromModule="11" fromSlot="ID8880a03da2a94f77847ee5ddfbd79df6" toModule="3" toSlot="ID22558304e6a04d6d931013386b14e0e2" />
     <Edge fromModule="11" fromSlot="ID99e685f162fc49548a73eab57dcb5c5d" toModule="3" toSlot="IDb7de4e9dcf7448cb8e7c1f5d10f21146" />
     <Edge fromModule="11" fromSlot="IDf36875cb447b40499b41a52ef621ac7d" toModule="3" toSlot="IDceacaa124fd2412c8c8122b692256a75" />
-    <Edge fromModule="12" fromSlot="transaction" toModule="13" toSlot="transaction" />
-    <Edge fromModule="12" fromSlot="transaction" toModule="7" toSlot="ID39148bed667a4c40b08e2b1902a78c40" />
-    <Edge fromModule="6" fromSlot="ID0be2e4b88a3d4766ab0a7088a1062974" toModule="5" toSlot="ID5f228542f9dd458e88a9db43632ae9c5" />
-    <Edge fromModule="6" fromSlot="ID0be2e4b88a3d4766ab0a7088a1062974" toModule="5" toSlot="IDd1c2ba388457434dbef555f57b1fa529" />
-    <Edge fromModule="6" fromSlot="ID0d093f62496c4a0eb5da74cd3a9f5c3f" toModule="5" toSlot="ID72c922d02cbd4454bb5766e5e31e028c" />
-    <Edge fromModule="6" fromSlot="ID0d093f62496c4a0eb5da74cd3a9f5c3f" toModule="5" toSlot="IDd76102d5f6b04f2cbe21244ee3d5e9eb" />
-    <Edge fromModule="6" fromSlot="ID99e685f162fc49548a73eab57dcb5c5d" toModule="5" toSlot="ID244cd6b6b00f4ffeab0e99bb57524dba" />
-    <Edge fromModule="8" fromSlot="transaction" toModule="6" toSlot="ID17e111c915fe4976b71dced4ca45f060" />
-    <Edge fromModule="8" fromSlot="transaction" toModule="9" toSlot="transaction" />
+    <Edge fromModule="3" fromSlot="ID3a1b78f3556445fb8cd7bb79055bf276" toModule="5" toSlot="ID244cd6b6b00f4ffeab0e99bb57524dba" />
+    <Edge fromModule="3" fromSlot="ID5d7c752aeaf641ab86b69468f1bfe704" toModule="5" toSlot="ID5f228542f9dd458e88a9db43632ae9c5" />
+    <Edge fromModule="3" fromSlot="ID73220d038f6e4c7691705718e37d034e" toModule="5" toSlot="ID72c922d02cbd4454bb5766e5e31e028c" />
+    <Edge fromModule="3" fromSlot="ID8488590f8121481c88068bbeab7815d2" toModule="5" toSlot="IDd76102d5f6b04f2cbe21244ee3d5e9eb" />
+    <Edge fromModule="3" fromSlot="IDf8952ba4be3543aab1674368858a646f" toModule="5" toSlot="IDd1c2ba388457434dbef555f57b1fa529" />
   </edges>
   <modules>
-    <ModulInst id="7" classID="ID05bf20ce399149c4b4ab8cf6e28bb6d4" ClassName="RDM_Add_Cols" location="1037,302">
-      <slots />
-    </ModulInst>
     <ModulInst id="0" classID="ID2d3cf28c775f4aaca2e2c2a3ac51acc6" ClassName="Load_RDM" location="544,0">
       <slots>
         <SlotInst id="IDdb9037f1943642b9a2c28ce75835fe66" />
@@ -34,10 +27,7 @@
     <ModulInst id="11" classID="ID598444bf52074f0c9ab079ba4e14a170" ClassName="RDM_Read_Tables" location="600,311">
       <slots />
     </ModulInst>
-    <ModulInst id="6" classID="ID598444bf52074f0c9ab079ba4e14a170" ClassName="RDM_Read_Tables" location="831,360">
-      <slots />
-    </ModulInst>
-    <ModulInst id="5" classID="IDeb85493af23c4c59ab962502413f8e8d" ClassName="Load_Relation_Instances" location="795,504">
+    <ModulInst id="5" classID="IDeb85493af23c4c59ab962502413f8e8d" ClassName="Load_Relation_Instances" location="802,504">
       <slots>
         <SlotInst id="ID0a01e603afc44d25893986de3be8bed8" />
       </slots>
@@ -45,29 +35,7 @@
     <ModulInst id="10" classID="c931faba34592ddc63770acba404eae5d1d97c81" ClassName="RDM_CommitReadTransaction" location="539,672">
       <slots />
     </ModulInst>
-    <ModulInst id="13" classID="c931faba34592ddc63770acba404eae5d1d97c81" ClassName="RDM_CommitReadTransaction" location="1048,444">
-      <slots />
-    </ModulInst>
-    <ModulInst id="9" classID="c931faba34592ddc63770acba404eae5d1d97c81" ClassName="RDM_CommitReadTransaction" location="838,660">
-      <slots />
-    </ModulInst>
     <ModulInst id="1" classID="df3c309de160f79d9ef39cd149600daae0bdd5f8" ClassName="RDM_StartReadTransaction" location="564,101">
-      <slots>
-        <SlotInst id="desiredvalidatticks" value="-1" />
-        <SlotInst id="dsn" value="Order_Database" />
-        <SlotInst id="namedreader" value="Reader" />
-        <SlotInst id="server" value="localhost" />
-      </slots>
-    </ModulInst>
-    <ModulInst id="12" classID="df3c309de160f79d9ef39cd149600daae0bdd5f8" ClassName="RDM_StartReadTransaction" location="1009,94">
-      <slots>
-        <SlotInst id="desiredvalidatticks" value="-1" />
-        <SlotInst id="dsn" value="Order_Database" />
-        <SlotInst id="namedreader" value="Reader" />
-        <SlotInst id="server" value="localhost" />
-      </slots>
-    </ModulInst>
-    <ModulInst id="8" classID="df3c309de160f79d9ef39cd149600daae0bdd5f8" ClassName="RDM_StartReadTransaction" location="767,113">
       <slots>
         <SlotInst id="desiredvalidatticks" value="-1" />
         <SlotInst id="dsn" value="Order_Database" />
@@ -79,16 +47,8 @@
   <timeEdges>
     <TimeEdge from="0" to="1" />
     <TimeEdge from="1" to="11" />
-    <TimeEdge from="10" to="12" />
     <TimeEdge from="11" to="3" />
-    <TimeEdge from="11" to="6" />
-    <TimeEdge from="11" to="7" />
-    <TimeEdge from="13" to="8" />
-    <TimeEdge from="3" to="10" />
     <TimeEdge from="3" to="5" />
-    <TimeEdge from="3" to="6" />
-    <TimeEdge from="5" to="9" />
-    <TimeEdge from="7" to="13" />
-    <TimeEdge from="7" to="6" />
+    <TimeEdge from="5" to="10" />
   </timeEdges>
 </WorkflowClass>
