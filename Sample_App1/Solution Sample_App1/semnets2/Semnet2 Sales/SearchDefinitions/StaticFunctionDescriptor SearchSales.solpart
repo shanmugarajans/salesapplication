@@ -27,11 +27,11 @@
       <MetaData>
         <KeyValue>
           <Key>usr.workflowdisplay.posx</Key>
-          <Value>423.999999999999</Value>
+          <Value>931.000000000001</Value>
         </KeyValue>
         <KeyValue>
           <Key>usr.workflowdisplay.posy</Key>
-          <Value>258.999999999999</Value>
+          <Value>249.800000000002</Value>
         </KeyValue>
       </MetaData>
       <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
@@ -49,15 +49,33 @@
         </KeyValue>
         <KeyValue>
           <Key>usr.workflowdisplay.posx</Key>
-          <Value>398.400000000004</Value>
+          <Value>939.400000000001</Value>
         </KeyValue>
         <KeyValue>
           <Key>usr.workflowdisplay.posy</Key>
-          <Value>318.599999999997</Value>
+          <Value>315.399999999999</Value>
         </KeyValue>
       </MetaData>
       <ParameterClassDescriptionName>System.Int32, mscorlib</ParameterClassDescriptionName>
       <ParameterName>maxResults</ParameterName>
+    </FunctionParameterDescriptor>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>SearchSales</FunctionFullName>
+      <InternalVariableName>2586083d-13b4-46c8-aefe-d5c84cd8976e</InternalVariableName>
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>912.800000000003</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>423.399999999998</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>Semnet2FulltextAdapter.FacetFilterDefinition[], Semnet2FulltextAdapter</ParameterClassDescriptionName>
+      <ParameterName>FacetFilterDefinitions</ParameterName>
     </FunctionParameterDescriptor>
   </Inputs>
   <InternalServerID>ca1e30fe-0d31-46b9-b8c2-fdc5e58ab5d9</InternalServerID>
@@ -251,15 +269,10 @@
         <FunctionParameterValue>
           <FieldName>FacetFilterDefinitions</FieldName>
           <FieldType>Semnet2FulltextAdapter.FacetFilterDefinition[], Semnet2FulltextAdapter</FieldType>
-          <FieldVal>
-            <ChildValues />
-            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
-            <TypeFullName>Semnet2FulltextAdapter.FacetFilterDefinition[], Semnet2FulltextAdapter</TypeFullName>
-            <val p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
-          </FieldVal>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
           <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
           <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
-          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>2586083d-13b4-46c8-aefe-d5c84cd8976e</VariableName>
         </FunctionParameterValue>
       </Inputs>
       <MetaData>
@@ -475,11 +488,11 @@
       <MetaData>
         <KeyValue>
           <Key>usr.workflowdisplay.posx</Key>
-          <Value>566.400000000001</Value>
+          <Value>574.599999999993</Value>
         </KeyValue>
         <KeyValue>
           <Key>usr.workflowdisplay.posy</Key>
-          <Value>504.000000000002</Value>
+          <Value>643.200000000003</Value>
         </KeyValue>
       </MetaData>
       <Outputs>
@@ -493,6 +506,49 @@
         </FunctionParameterValue>
       </Outputs>
       <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.ResultReturner.ViewCardReturner.ReturnViewCard, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>876a7ba93d1a4f59852e17c38521bda4</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>facetAttribute</FieldName>
+          <FieldType>Semnet2FulltextAdapter.FacetAttribute[], Semnet2FulltextAdapter</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>22af1038-70df-44d1-a4f1-e5b62bf2cfd8</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>FacetSearchConfig</FieldName>
+          <FieldType>Semnet2FulltextAdapter.FulltextSearchConfig, Semnet2FulltextAdapter</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>de8a467e-d12b-46ef-9a6d-a59d348ffb8f</VariableName>
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>919.199999999996</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>522.399999999999</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>Facets</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.RResult[], SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>197e4c5c-5366-4cad-af94-4ab64ddfa1d7</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>Semnet2FulltextAdapter.FulltextQuerier.FacetReturn, Semnet2FulltextAdapter</TypeFullName>
     </StaticFunctionObject>
   </MacroDefinition>
   <MetaData p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
