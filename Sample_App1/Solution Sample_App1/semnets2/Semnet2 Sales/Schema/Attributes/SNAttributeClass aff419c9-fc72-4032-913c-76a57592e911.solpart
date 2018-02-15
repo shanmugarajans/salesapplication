@@ -6,7 +6,7 @@
   <ID>aff419c9-fc72-4032-913c-76a57592e911</ID>
   <JoinDefinition>
     <SNJoinedAttributeClass>
-      <AttributeClass>00000000-0000-0000-0000-000000000004</AttributeClass>
+      <AttributeClass>b34b0e9a-9bd8-4b2b-a650-9b29692e6db7</AttributeClass>
       <PositionInJoin>0</PositionInJoin>
       <Relation2Follow>00000000-0000-0000-0000-000000000000</Relation2Follow>
       <Relation2FollowSecond>00000000-0000-0000-0000-000000000000</Relation2FollowSecond>

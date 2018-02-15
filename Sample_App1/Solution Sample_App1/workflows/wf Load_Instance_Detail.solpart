@@ -162,7 +162,7 @@
   <slots>
     <SlotClass id="ID03fd8cbeb9e64f4580827d855252b55a" name="Orde" defaultValue="" inputType="xml" slotType="Output" location="493.6,654.8" variable="" variablestringformat="" />
     <SlotClass id="ID0a4207c8c08a4822ad32d18e110818b2" name="Ord_Details" defaultValue="" inputType="xml" slotType="Output" location="664.8,650" variable="" variablestringformat="" />
-    <SlotClass id="ID166623e060cc49ef82f7b09cc1da5913" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="517.4,812.8" variable="ID76cb048f330e4ad38b5eb8488009b28e" variablestringformat="{0}" />
+    <SlotClass id="ID166623e060cc49ef82f7b09cc1da5913" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="517.4,812.8" variable="ID45b57b17721f4b01856790850741fa34" variablestringformat="{0}" />
     <SlotClass id="ID4418c85fa3ea4db2bc630770f7f81edd" name="Order_Details" defaultValue="" inputType="xml" slotType="Input" location="661,271.2" variable="" variablestringformat="" />
     <SlotClass id="ID47ebb79bd8b64fed829f869682d0af50" name="Supplier" defaultValue="" inputType="xml" slotType="Output" location="1163.2,634.8" variable="" variablestringformat="" />
     <SlotClass id="ID4e4715537f8941b1a635006bb054b227" name="Customers" defaultValue="" inputType="xml" slotType="Input" location="104,276.4" variable="" variablestringformat="" />
