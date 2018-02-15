@@ -1,4 +1,4 @@
-﻿<WorkflowClass classID="ID598444bf52074f0c9ab079ba4e14a170" classRelease="2018-02-14T16:45:00.8859732Z" name="Read_RDM_Start" xmlVersion="0.2" owner="APAC" path="" description="">
+﻿<WorkflowClass classID="ID598444bf52074f0c9ab079ba4e14a170" classRelease="2018-02-14T16:45:00.8859732Z" name="RDM_Read_Tables" xmlVersion="0.2" owner="APAC" path="" description="">
   <macroEdges>
     <MacroEdge externSlot="ID0be2e4b88a3d4766ab0a7088a1062974" internModule="6" internSlot="modified" />
     <MacroEdge externSlot="ID0d093f62496c4a0eb5da74cd3a9f5c3f" internModule="2" internSlot="modified" />
@@ -18,49 +18,49 @@
   <modules>
     <ModulInst id="0" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="100,105">
       <slots>
-        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|CustomerID|Fax|Phone|PostalCode|Region|_RDM_ID" />
+        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|CustomerID|Cust_Id_Prefix|Fax|Phone|PostalCode|Region|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Customer" />
       </slots>
     </ModulInst>
     <ModulInst id="1" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="305,105">
       <slots>
-        <SlotInst id="outcolumns" value="EmployeeID|FirstName|LastName|Title|_RDM_ID" />
+        <SlotInst id="outcolumns" value="EmployeeID|Emp_Id_Prefix|FirstName|LastName|Title|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Employee" />
       </slots>
     </ModulInst>
     <ModulInst id="2" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="498,105">
       <slots>
-        <SlotInst id="outcolumns" value="CustomerID|EmployeeID|Freight|OrderDate|OrderID|RequiredDate|ShipAddress|ShipCity|ShipCountry|ShipName|ShippedDate|ShipPostalCode|ShipRegion|ShipVia|_RDM_ID" />
+        <SlotInst id="outcolumns" value="CustomerID|EmployeeID|Freight|OrderDate|OrderID|Ord_Id_Prefix|RequiredDate|ShipAddress|ShipCity|ShipCountry|ShipName|ShippedDate|ShipPostalCode|ShipRegion|ShipVia|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Orders" />
       </slots>
     </ModulInst>
     <ModulInst id="3" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="831,101">
       <slots>
-        <SlotInst id="outcolumns" value="CategoryID|Discontinued|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
+        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Discontinued|Picture|Prd_cat_Id_Prefix|Prd_Id_Prefix|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Product" />
       </slots>
     </ModulInst>
     <ModulInst id="4" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="992,103">
       <slots>
-        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Picture|_RDM_ID" />
+        <SlotInst id="outcolumns" value="CategoryID|CategoryName|Description|Picture|Prd_cat_Id_Prefix|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Product_Category" />
       </slots>
     </ModulInst>
     <ModulInst id="5" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="1151,100">
       <slots>
-        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|Fax|HomePage|Phone|PostalCode|Region|SupplierID|_RDM_ID" />
+        <SlotInst id="outcolumns" value="Address|City|CompanyName|ContactName|ContactTitle|Country|Fax|HomePage|Phone|PostalCode|Region|SupplierID|Sup_Id_Prefix|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Suppliers" />
       </slots>
     </ModulInst>
     <ModulInst id="6" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="666,105">
       <slots>
-        <SlotInst id="outcolumns" value="Discount|OrderID|OrdProdid|ProductID|Quantity|UnitPrice|_RDM_ID" />
+        <SlotInst id="outcolumns" value="Discount|OrderID|OrdProdid|Ord_dtl_Id_Prefix|ProductID|Quantity|UnitPrice|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Order_Details" />
       </slots>

@@ -1,0 +1,72 @@
+﻿<WorkflowClass classID="IDba164a4f7f3e4266bd2c1ede5f653f39" classRelease="2018-02-15T09:35:42.0911409Z" name="RDM_Add_Prex_ID" xmlVersion="0.2" owner="APAC" path="" description="">
+  <macroEdges>
+    <MacroEdge externSlot="ID10676299dd264752888613fe64ca6c3f" internModule="0" internSlot="input" />
+    <MacroEdge externSlot="ID3e5c0d96233f45bbadaaa60075c43f4d" internModule="2" internSlot="input" />
+    <MacroEdge externSlot="ID7a6f0edc995b47e5a6465ceedce34970" internModule="3" internSlot="input" />
+    <MacroEdge externSlot="ID8546e9a6239a4b0c9f880ccdb050f3b1" internModule="6" internSlot="input" />
+    <MacroEdge externSlot="ID987ffbcf16874dacb85912118996a904" internModule="5" internSlot="input" />
+    <MacroEdge externSlot="IDd63dfefedc9d4116a9ce17293c1a2a31" internModule="4" internSlot="input" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="0" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="1" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="2" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="3" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="4" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="5" internSlot="transaction" />
+    <MacroEdge externSlot="IDf30369e8cfea44aab1c9ec723540adc8" internModule="6" internSlot="transaction" />
+    <MacroEdge externSlot="IDf90029dfb13e4ee99a0b7421faaef7aa" internModule="1" internSlot="input" />
+  </macroEdges>
+  <modules>
+    <ModulInst id="0" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="104,184">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Customer" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="1" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="296,180">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Employee" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="2" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="469,179">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Orders" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="3" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="635,176">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Order_Details" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="4" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="791,181">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Product" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="5" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="963,178">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Product_Category" />
+      </slots>
+    </ModulInst>
+    <ModulInst id="6" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="1114,175">
+      <slots>
+        <SlotInst id="idcolumn" value="_RDM_ID" />
+        <SlotInst id="table" value="Suppliers" />
+      </slots>
+    </ModulInst>
+  </modules>
+  <slots>
+    <SlotClass id="ID10676299dd264752888613fe64ca6c3f" name="Customer_Prefix" defaultValue="" inputType="xml" slotType="Input" location="110.8,346" variable="" variablestringformat="" />
+    <SlotClass id="ID3e5c0d96233f45bbadaaa60075c43f4d" name="Order" defaultValue="" inputType="xml" slotType="Input" location="490.8,343.3" variable="" variablestringformat="" />
+    <SlotClass id="ID7a6f0edc995b47e5a6465ceedce34970" name="Order_Details" defaultValue="" inputType="xml" slotType="Input" location="657.2,339.3" variable="" variablestringformat="" />
+    <SlotClass id="ID8546e9a6239a4b0c9f880ccdb050f3b1" name="Suppliers" defaultValue="" inputType="xml" slotType="Input" location="1130,328.1" variable="" variablestringformat="" />
+    <SlotClass id="ID987ffbcf16874dacb85912118996a904" name="Prod_Category" defaultValue="" inputType="xml" slotType="Input" location="967.6,333.7" variable="" variablestringformat="" />
+    <SlotClass id="IDd63dfefedc9d4116a9ce17293c1a2a31" name="Product" defaultValue="" inputType="xml" slotType="Input" location="796.8,338.5" variable="" variablestringformat="" />
+    <SlotClass id="IDf30369e8cfea44aab1c9ec723540adc8" name="Transaction" defaultValue="" inputType="xml" slotType="Input" location="515.2,16.1" variable="" variablestringformat="" />
+    <SlotClass id="IDf90029dfb13e4ee99a0b7421faaef7aa" name="Employee" defaultValue="" inputType="xml" slotType="Input" location="314,344.1" variable="" variablestringformat="" />
+  </slots>
+</WorkflowClass>
