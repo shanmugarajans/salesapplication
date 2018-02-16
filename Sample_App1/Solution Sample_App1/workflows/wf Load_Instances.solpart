@@ -2,7 +2,6 @@
   <edges>
     <Edge fromModule="15" fromSlot="transacton" toModule="16" toSlot="IDf30369e8cfea44aab1c9ec723540adc8" />
     <Edge fromModule="15" fromSlot="transacton" toModule="17" toSlot="transaction" />
-    <Edge fromModule="15" fromSlot="transacton" toModule="4" toSlot="transaction" />
     <Edge fromModule="18" fromSlot="ID03fd8cbeb9e64f4580827d855252b55a" toModule="16" toSlot="ID3e5c0d96233f45bbadaaa60075c43f4d" />
     <Edge fromModule="18" fromSlot="ID03fd8cbeb9e64f4580827d855252b55a" toModule="7" toSlot="12c0f1fbadc4046b5f2bb9e063b227ef8750d9d6" />
     <Edge fromModule="18" fromSlot="ID03fd8cbeb9e64f4580827d855252b55a" toModule="8" toSlot="12c0f1fbadc4046b5f2bb9e063b227ef8750d9d6" />
@@ -20,7 +19,6 @@
     <Edge fromModule="18" fromSlot="IDb7786aa966b540f086e40e4e54a44b9e" toModule="6" toSlot="d27a1f11771200949714b1af99f048a416f5d6f4" />
     <Edge fromModule="18" fromSlot="IDbdfb7bf22a5a490792e94556fbf96d0d" toModule="16" toSlot="IDf90029dfb13e4ee99a0b7421faaef7aa" />
     <Edge fromModule="18" fromSlot="IDbdfb7bf22a5a490792e94556fbf96d0d" toModule="7" toSlot="d27a1f11771200949714b1af99f048a416f5d6f4" />
-    <Edge fromModule="5" fromSlot="1029d67644815d428f554e390aa966d57a0b29b8" toModule="4" toSlot="input" />
   </edges>
   <macroEdges>
     <MacroEdge externSlot="ID22558304e6a04d6d931013386b14e0e2" internModule="18" internSlot="ID4e4715537f8941b1a635006bb054b227" />
@@ -37,12 +35,6 @@
     <MacroEdge externSlot="IDf8952ba4be3543aab1674368858a646f" internModule="8" internSlot="1029d67644815d428f554e390aa966d57a0b29b8" />
   </macroEdges>
   <modules>
-    <ModulInst id="4" classID="00f399672e5980ce5b773d2f27383d8c6f3730c0" ClassName="RDM_Add" location="969,113">
-      <slots>
-        <SlotInst id="idcolumn" value="Prd_Id_Prefix" />
-        <SlotInst id="table" value="Product" />
-      </slots>
-    </ModulInst>
     <ModulInst id="5" classID="83c6b9c69328f509964273870a3db9ea30eacbb9" ClassName="Join" location="815,252">
       <slots>
         <SlotInst id="1d7bfd8b87dd1784f6666ad047cbf1e8ce5e07ca" value="CategoryID" />
@@ -51,7 +43,7 @@
         <SlotInst id="ec0944b40fb452316c1cd3530ba38e6f96bed92a" value="CategoryID" />
       </slots>
     </ModulInst>
-    <ModulInst id="6" classID="83c6b9c69328f509964273870a3db9ea30eacbb9" ClassName="Join" location="830,816">
+    <ModulInst id="6" classID="83c6b9c69328f509964273870a3db9ea30eacbb9" ClassName="Join" location="830,848">
       <slots>
         <SlotInst id="1d7bfd8b87dd1784f6666ad047cbf1e8ce5e07ca" value="ProductID" />
         <SlotInst id="3a633f0c9eb36aa8621e016a29f6b27f83e3522a" value="False" />
@@ -123,6 +115,5 @@
     <TimeEdge from="18" to="15" />
     <TimeEdge from="18" to="16" />
     <TimeEdge from="18" to="5" />
-    <TimeEdge from="4" to="17" />
   </timeEdges>
 </WorkflowClass>
