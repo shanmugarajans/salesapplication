@@ -12,16 +12,13 @@
   <macroEdges>
     <MacroEdge externSlot="ID03fd8cbeb9e64f4580827d855252b55a" internModule="12" internSlot="98a8aac5-5901-4ef9-9023-43cccac70aac" />
     <MacroEdge externSlot="ID0a4207c8c08a4822ad32d18e110818b2" internModule="11" internSlot="98a8aac5-5901-4ef9-9023-43cccac70aac" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="0" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="1" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="2" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="3" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="4" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="5" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID166623e060cc49ef82f7b09cc1da5913" internModule="6" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID43508e5ca86d4c36a7dff979b3b9a6af" internModule="0" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="ID4418c85fa3ea4db2bc630770f7f81edd" internModule="11" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
     <MacroEdge externSlot="ID47ebb79bd8b64fed829f869682d0af50" internModule="9" internSlot="98a8aac5-5901-4ef9-9023-43cccac70aac" />
+    <MacroEdge externSlot="ID4a16c159479d478782ce41103bc6c738" internModule="4" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="ID4e4715537f8941b1a635006bb054b227" internModule="7" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
+    <MacroEdge externSlot="ID599e670ffb59437c874571ef3b8f9f1d" internModule="1" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID5b7c1afcd9964c5fb4c0aaf7d3701a09" internModule="3" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="ID5d4df778a5ee4bd8a393b47b604cdc94" internModule="12" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
     <MacroEdge externSlot="ID958c5d525eb04136bbe86383962b64e6" internModule="8" internSlot="98a8aac5-5901-4ef9-9023-43cccac70aac" />
     <MacroEdge externSlot="ID995fb15e0cdd4a128719846b72a5d1f5" internModule="10" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
@@ -30,6 +27,9 @@
     <MacroEdge externSlot="IDbdfb7bf22a5a490792e94556fbf96d0d" internModule="13" internSlot="98a8aac5-5901-4ef9-9023-43cccac70aac" />
     <MacroEdge externSlot="IDc1c6d1d79f58483bb1634f847b6eba78" internModule="8" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
     <MacroEdge externSlot="IDc58ba464cdd84b6181fc3b7f26eb3957" internModule="9" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
+    <MacroEdge externSlot="IDcb50df471af847fbb806c3c44b944c01" internModule="2" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="IDd8812b16249346deb1d43396d3b59b3e" internModule="5" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="IDf8846989faf8404ba9065ae8f56d8910" internModule="6" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="IDfc71aa12120142de9240b85f35a135fd" internModule="13" internSlot="a68db79a-4b93-4349-b1b4-0a263f2210f1" />
   </macroEdges>
   <modules>
@@ -171,10 +171,13 @@
   <slots>
     <SlotClass id="ID03fd8cbeb9e64f4580827d855252b55a" name="Orde" defaultValue="" inputType="xml" slotType="Output" location="493.6,654.8" variable="" variablestringformat="" />
     <SlotClass id="ID0a4207c8c08a4822ad32d18e110818b2" name="Ord_Details" defaultValue="" inputType="xml" slotType="Output" location="664.8,650" variable="" variablestringformat="" />
-    <SlotClass id="ID166623e060cc49ef82f7b09cc1da5913" name="ID76cb048f330e4ad38b5eb8488009b28e_0" defaultValue="" inputType="semnet" slotType="Parameter" location="517.4,812.8" variable="ID45b57b17721f4b01856790850741fa34" variablestringformat="{0}" />
+    <SlotClass id="ID43508e5ca86d4c36a7dff979b3b9a6af" name="Brain_Inst_Customer" defaultValue="" inputType="semnet" slotType="Parameter" location="112.8,898.3" variable="" variablestringformat="" />
     <SlotClass id="ID4418c85fa3ea4db2bc630770f7f81edd" name="Order_Details" defaultValue="" inputType="xml" slotType="Input" location="661,271.2" variable="" variablestringformat="" />
     <SlotClass id="ID47ebb79bd8b64fed829f869682d0af50" name="Supplier" defaultValue="" inputType="xml" slotType="Output" location="1151.2,810" variable="" variablestringformat="" />
+    <SlotClass id="ID4a16c159479d478782ce41103bc6c738" name="Brain_Inst_Prd" defaultValue="" inputType="semnet" slotType="Parameter" location="806.4,888.9" variable="" variablestringformat="" />
     <SlotClass id="ID4e4715537f8941b1a635006bb054b227" name="Customers" defaultValue="" inputType="xml" slotType="Input" location="104,276.4" variable="" variablestringformat="" />
+    <SlotClass id="ID599e670ffb59437c874571ef3b8f9f1d" name="Brain_Inst_Emp" defaultValue="" inputType="semnet" slotType="Parameter" location="304.2,897.1" variable="" variablestringformat="" />
+    <SlotClass id="ID5b7c1afcd9964c5fb4c0aaf7d3701a09" name="Brain_Inst_Ord_dtl" defaultValue="" inputType="semnet" slotType="Parameter" location="637.8,889.3" variable="" variablestringformat="" />
     <SlotClass id="ID5d4df778a5ee4bd8a393b47b604cdc94" name="Order" defaultValue="" inputType="xml" slotType="Input" location="488.8,270.6" variable="" variablestringformat="" />
     <SlotClass id="ID958c5d525eb04136bbe86383962b64e6" name="Prod_Details" defaultValue="" inputType="xml" slotType="Output" location="970.4,810.8" variable="" variablestringformat="" />
     <SlotClass id="ID995fb15e0cdd4a128719846b72a5d1f5" name="Product" defaultValue="" inputType="xml" slotType="Input" location="822,268.8" variable="" variablestringformat="" />
@@ -183,6 +186,9 @@
     <SlotClass id="IDbdfb7bf22a5a490792e94556fbf96d0d" name="Employe" defaultValue="" inputType="xml" slotType="Output" location="306.4,822.8" variable="" variablestringformat="" />
     <SlotClass id="IDc1c6d1d79f58483bb1634f847b6eba78" name="Product_Details" defaultValue="" inputType="xml" slotType="Input" location="984.6,263.2" variable="" variablestringformat="" />
     <SlotClass id="IDc58ba464cdd84b6181fc3b7f26eb3957" name="Suppliers" defaultValue="" inputType="xml" slotType="Input" location="1154.8,261.8" variable="" variablestringformat="" />
+    <SlotClass id="IDcb50df471af847fbb806c3c44b944c01" name="Brain_Inst_Ord" defaultValue="" inputType="semnet" slotType="Parameter" location="472.4,893.3" variable="" variablestringformat="" />
+    <SlotClass id="IDd8812b16249346deb1d43396d3b59b3e" name="Brain_Inst_Supp" defaultValue="" inputType="semnet" slotType="Parameter" location="1148.4,884.1" variable="" variablestringformat="" />
+    <SlotClass id="IDf8846989faf8404ba9065ae8f56d8910" name="Brain_Inst_Prd_dtl" defaultValue="" inputType="semnet" slotType="Parameter" location="965.4,888.9" variable="" variablestringformat="" />
     <SlotClass id="IDfc71aa12120142de9240b85f35a135fd" name="Employees" defaultValue="" inputType="xml" slotType="Input" location="303.4,273.4" variable="" variablestringformat="" />
   </slots>
   <timeEdges>

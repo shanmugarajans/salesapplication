@@ -1,13 +1,13 @@
 ﻿<WorkflowClass classID="IDeb85493af23c4c59ab962502413f8e8d" classRelease="2018-02-14T16:51:42.5983457Z" name="Load_Relation_Instances" xmlVersion="0.2" owner="APAC" path="" description="">
   <macroEdges>
-    <MacroEdge externSlot="ID0a01e603afc44d25893986de3be8bed8" internModule="0" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID0a01e603afc44d25893986de3be8bed8" internModule="1" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID0a01e603afc44d25893986de3be8bed8" internModule="2" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID0a01e603afc44d25893986de3be8bed8" internModule="3" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
-    <MacroEdge externSlot="ID0a01e603afc44d25893986de3be8bed8" internModule="4" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID134ec386ae7b410d802feb4c6eb3f262" internModule="2" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="ID244cd6b6b00f4ffeab0e99bb57524dba" internModule="4" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="ID4aaa65c9d1a84f9f88cd95040a1d00c4" internModule="1" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="ID5f228542f9dd458e88a9db43632ae9c5" internModule="3" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
     <MacroEdge externSlot="ID72c922d02cbd4454bb5766e5e31e028c" internModule="2" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
+    <MacroEdge externSlot="ID8e16f108d41d4e1991d5aca50cb75301" internModule="4" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="ID941ea91e7bb046ac8bd6f9ec1729d3a3" internModule="3" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
+    <MacroEdge externSlot="IDcb4963b076cd46578045ee13b8017e59" internModule="0" internSlot="9bb81c2eccbed59ee8cbe296f1278f0ca1f364cc" />
     <MacroEdge externSlot="IDd1c2ba388457434dbef555f57b1fa529" internModule="0" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
     <MacroEdge externSlot="IDd76102d5f6b04f2cbe21244ee3d5e9eb" internModule="1" internSlot="b568d47f2e244743b1fd7472db836ef9769c21f8" />
   </macroEdges>
@@ -64,10 +64,14 @@
     </ModulInst>
   </modules>
   <slots>
-    <SlotClass id="ID0a01e603afc44d25893986de3be8bed8" name="ID45b57b17721f4b01856790850741fa34_0" defaultValue="" inputType="semnet" slotType="Parameter" location="756,375.2" variable="ID45b57b17721f4b01856790850741fa34" variablestringformat="{0}" />
+    <SlotClass id="ID134ec386ae7b410d802feb4c6eb3f262" name="Br_Emp_C_Order" defaultValue="" inputType="semnet" slotType="Parameter" location="575.4,348.3" variable="" variablestringformat="" />
     <SlotClass id="ID244cd6b6b00f4ffeab0e99bb57524dba" name="Prod_B_Category" defaultValue="" inputType="xml" slotType="Input" location="918,45.7" variable="" variablestringformat="" />
+    <SlotClass id="ID4aaa65c9d1a84f9f88cd95040a1d00c4" name="Br_Cust_P_Order" defaultValue="" inputType="semnet" slotType="Parameter" location="381.8,352.9" variable="" variablestringformat="" />
     <SlotClass id="ID5f228542f9dd458e88a9db43632ae9c5" name="Ord_M_Prod" defaultValue="" inputType="xml" slotType="Input" location="746,47.3" variable="" variablestringformat="" />
     <SlotClass id="ID72c922d02cbd4454bb5766e5e31e028c" name="Emp_C_Order" defaultValue="" inputType="xml" slotType="Input" location="559.6,49.7" variable="" variablestringformat="" />
+    <SlotClass id="ID8e16f108d41d4e1991d5aca50cb75301" name="Br_Prod_B_Category" defaultValue="" inputType="semnet" slotType="Parameter" location="957.8,339.7" variable="" variablestringformat="" />
+    <SlotClass id="ID941ea91e7bb046ac8bd6f9ec1729d3a3" name="Br_Ord_M_Prod" defaultValue="" inputType="semnet" slotType="Parameter" location="762.8,340.5" variable="" variablestringformat="" />
+    <SlotClass id="IDcb4963b076cd46578045ee13b8017e59" name="Br_Ord_Orddetails" defaultValue="" inputType="semnet" slotType="Parameter" location="142.4,354.3" variable="" variablestringformat="" />
     <SlotClass id="IDd1c2ba388457434dbef555f57b1fa529" name="Ord_Orddetails" defaultValue="" inputType="xml" slotType="Input" location="128,52.9" variable="" variablestringformat="" />
     <SlotClass id="IDd76102d5f6b04f2cbe21244ee3d5e9eb" name="Cust_P_Order" defaultValue="" inputType="xml" slotType="Input" location="346,50.5" variable="" variablestringformat="" />
   </slots>
