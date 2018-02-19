@@ -1,0 +1,653 @@
+﻿<StaticFunctionDescriptor xmlns="http://schemas.datacontract.org/2004/07/ConWeaver.SemNet.ClientInterface.SearchLanguage">
+  <FunctionFullName>LoadCustomerOrderDetails</FunctionFullName>
+  <Inputs>
+    <FunctionParameterDescriptor>
+      <DefaultValue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <FunctionFullName>LoadCustomerOrderDetails</FunctionFullName>
+      <InternalVariableName>38a152af-620e-4968-b07c-722eba4de1a4</InternalVariableName>
+      <IsMultiParameter>false</IsMultiParameter>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>26.3999999999987</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>18.8000000000001</Value>
+        </KeyValue>
+      </MetaData>
+      <ParameterClassDescriptionName>System.String, mscorlib</ParameterClassDescriptionName>
+      <ParameterName>CustomerId</ParameterName>
+    </FunctionParameterDescriptor>
+  </Inputs>
+  <InternalServerID>c0f39715-af20-4ce9-805a-d4cfe3fad274</InternalServerID>
+  <IsPublic>true</IsPublic>
+  <MacroDefinition>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>4b9fba637a0a4895a9e10802c3ec4110</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>ExternalID</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>38a152af-620e-4968-b07c-722eba4de1a4</VariableName>
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>172.399999999997</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>11.3999999999996</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>Individuals</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>2b5c7dbc-307b-484c-bf8b-d02d00f43158</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.ExactSearcher.FindIndividualByExternalID, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>b08808082602497c83ca52727500670c</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>Individuals</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.QueryOperators.RankedIndividualList, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>2b5c7dbc-307b-484c-bf8b-d02d00f43158</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>IndividualIDColumn</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">ID</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>RankingValueColumn</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">Rank</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>AttributesToLoad</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn[], SemNetCore</FieldType>
+          <FieldVal>
+            <ChildValues />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn[], SemNetCore</TypeFullName>
+            <val p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Query</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FtOperator, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>b1455fdc-443d-4777-b9b2-7eabc66b9ea0</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>MaxSnippetLen</FieldName>
+          <FieldType>System.Int32, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int32, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">200</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>423.800000000005</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>13.2000000000009</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>Table</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>eaf90e63-fe51-4d72-85d7-bd4aa442128c</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Individuals2RamTableConverter.Individuals2Table_RamSQL, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>deea0763580a4b39977b04424a633c66</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>InputTable</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>eaf90e63-fe51-4d72-85d7-bd4aa442128c</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Relations</FieldName>
+          <FieldType>System.Guid[], mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues>
+              <FieldValue>
+                <FieldName></FieldName>
+                <FieldType>System.Guid, mscorlib</FieldType>
+                <FieldVal>
+                  <ChildValues p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <MetaData p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <TypeFullName>System.Guid, mscorlib</TypeFullName>
+                  <val xmlns:d13p1="http://schemas.microsoft.com/2003/10/Serialization/" p11:type="d13p1:guid" xmlns:p11="http://www.w3.org/2001/XMLSchema-instance">4b03bcef-f323-490a-95f4-52eeeb714648</val>
+                </FieldVal>
+                <MetaData p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+                <VariableName p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+              </FieldValue>
+            </ChildValues>
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Guid[], mscorlib</TypeFullName>
+            <val p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>SourceInternalIDColName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">ID</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>DestInternalIDColName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">DestID</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>RelationClassIDColName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">customerToOrder</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>WeightColName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">Weight</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>JoinMode</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamSQL_JoinMode, SemNetCore</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RamSQL_JoinMode, SemNetCore</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">InnerJoin</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>IncludeInheritance</FieldName>
+          <FieldType>System.Boolean, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Boolean, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:boolean" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">true</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>735.200000000001</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>0</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>Table</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>3d1306dd-48c5-4889-af25-4251770aca2c</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.RelationFollower_RamSQL.FollowRelation_RamSQL, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>fbd69d0585e74a8ca696d5118771af09</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>InputTable</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>3d1306dd-48c5-4889-af25-4251770aca2c</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>InternalIDColumnName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">DestID</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>AttributesToLoad</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn[], SemNetCore</FieldType>
+          <FieldVal>
+            <ChildValues>
+              <FieldValue>
+                <FieldName></FieldName>
+                <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</FieldType>
+                <FieldVal>
+                  <ChildValues>
+                    <FieldValue>
+                      <FieldName>Attribute</FieldName>
+                      <FieldType>System.Guid, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.Guid, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://schemas.microsoft.com/2003/10/Serialization/" p14:type="d16p1:guid" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance">00000000-0000-0000-0000-000000000004</val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                    <FieldValue>
+                      <FieldName>ColumnName</FieldName>
+                      <FieldType>System.String, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.String, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://www.w3.org/2001/XMLSchema" p14:type="d16p1:string" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance"></val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                  </ChildValues>
+                  <MetaData p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</TypeFullName>
+                  <val p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                </FieldVal>
+                <MetaData p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+                <VariableName p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+              </FieldValue>
+              <FieldValue>
+                <FieldName></FieldName>
+                <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</FieldType>
+                <FieldVal>
+                  <ChildValues>
+                    <FieldValue>
+                      <FieldName>Attribute</FieldName>
+                      <FieldType>System.Guid, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.Guid, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://schemas.microsoft.com/2003/10/Serialization/" p14:type="d16p1:guid" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance">b34b0e9a-9bd8-4b2b-a650-9b29692e6db7</val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                    <FieldValue>
+                      <FieldName>ColumnName</FieldName>
+                      <FieldType>System.String, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.String, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://www.w3.org/2001/XMLSchema" p14:type="d16p1:string" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance"></val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                  </ChildValues>
+                  <MetaData p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</TypeFullName>
+                  <val p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                </FieldVal>
+                <MetaData p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+                <VariableName p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+              </FieldValue>
+              <FieldValue>
+                <FieldName></FieldName>
+                <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</FieldType>
+                <FieldVal>
+                  <ChildValues>
+                    <FieldValue>
+                      <FieldName>Attribute</FieldName>
+                      <FieldType>System.Guid, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.Guid, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://schemas.microsoft.com/2003/10/Serialization/" p14:type="d16p1:guid" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance">c9fcea15-6952-4503-9ec5-dc430f7301ca</val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                    <FieldValue>
+                      <FieldName>ColumnName</FieldName>
+                      <FieldType>System.String, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.String, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://www.w3.org/2001/XMLSchema" p14:type="d16p1:string" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance"></val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                  </ChildValues>
+                  <MetaData p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</TypeFullName>
+                  <val p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                </FieldVal>
+                <MetaData p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+                <VariableName p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+              </FieldValue>
+              <FieldValue>
+                <FieldName></FieldName>
+                <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</FieldType>
+                <FieldVal>
+                  <ChildValues>
+                    <FieldValue>
+                      <FieldName>Attribute</FieldName>
+                      <FieldType>System.Guid, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.Guid, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://schemas.microsoft.com/2003/10/Serialization/" p14:type="d16p1:guid" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance">7d369906-e1c7-43af-9e71-91b779e6154c</val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                    <FieldValue>
+                      <FieldName>ColumnName</FieldName>
+                      <FieldType>System.String, mscorlib</FieldType>
+                      <FieldVal>
+                        <ChildValues p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <MetaData p13:nil="true" xmlns:p13="http://www.w3.org/2001/XMLSchema-instance" />
+                        <TypeFullName>System.String, mscorlib</TypeFullName>
+                        <val xmlns:d16p1="http://www.w3.org/2001/XMLSchema" p14:type="d16p1:string" xmlns:p14="http://www.w3.org/2001/XMLSchema-instance"></val>
+                      </FieldVal>
+                      <MetaData p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                      <VariableName p12:nil="true" xmlns:p12="http://www.w3.org/2001/XMLSchema-instance" />
+                    </FieldValue>
+                  </ChildValues>
+                  <MetaData p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                  <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn, SemNetCore</TypeFullName>
+                  <val p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+                </FieldVal>
+                <MetaData p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+                <VariableName p9:nil="true" xmlns:p9="http://www.w3.org/2001/XMLSchema-instance" />
+              </FieldValue>
+            </ChildValues>
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Attribute2NewColumn[], SemNetCore</TypeFullName>
+            <val p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Query</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FtOperator, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>cc1e8367-8086-457f-bb9d-f4abdf7e71e0</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>MaxSnippetLen</FieldName>
+          <FieldType>System.Int32, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int32, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">200</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>538.200000000006</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>335.399999999995</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>Table</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>01f5b07b-e1f5-479e-b5e8-5d67cfb05e84</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.RamSQL.Individuals2RamTableConverter.AddAttributes_RamSQL, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+    <StaticFunctionObject>
+      <ExecuteIFnullOrBoolVarTrue p4:nil="true" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance" />
+      <ExecutionID>0ca4d0c8c24242dc93c0a1d9d33bf9b0</ExecutionID>
+      <Inputs>
+        <FunctionParameterValue>
+          <FieldName>InputTable</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>01f5b07b-e1f5-479e-b5e8-5d67cfb05e84</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>TableName</FieldName>
+          <FieldType>System.String, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.String, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:string" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">Table</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>StartAt</FieldName>
+          <FieldType>System.Int32, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int32, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">0</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Count</FieldName>
+          <FieldType>System.Int32, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int32, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">10</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>AttributesToAdd</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.ResultReturner.AddAttributesConfig, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>ee2def5d-7313-49fc-9f3c-64436a87200d</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>TotalCountEstimated</FieldName>
+          <FieldType>System.Int64, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int64, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">0</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Query</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.QueryOperators.FullTextStdOperators.FtOperator, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>0d516a1c-264f-4f82-9649-f9167f5acaac</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>MaxSnippetLen</FieldName>
+          <FieldType>System.Int32, mscorlib</FieldType>
+          <FieldVal>
+            <ChildValues p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <MetaData p7:nil="true" xmlns:p7="http://www.w3.org/2001/XMLSchema-instance" />
+            <TypeFullName>System.Int32, mscorlib</TypeFullName>
+            <val xmlns:d10p1="http://www.w3.org/2001/XMLSchema" p8:type="d10p1:int" xmlns:p8="http://www.w3.org/2001/XMLSchema-instance">200</val>
+          </FieldVal>
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+        </FunctionParameterValue>
+      </Inputs>
+      <MetaData>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posx</Key>
+          <Value>151</Value>
+        </KeyValue>
+        <KeyValue>
+          <Key>usr.workflowdisplay.posy</Key>
+          <Value>346</Value>
+        </KeyValue>
+      </MetaData>
+      <Outputs>
+        <FunctionParameterValue>
+          <FieldName>ResultAsRamTable</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.SearchQueryOperators.StdQueryIntermediateObjects.RamTable, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>8248c7e5-a671-4aad-9e9b-ab68321df731</VariableName>
+        </FunctionParameterValue>
+        <FunctionParameterValue>
+          <FieldName>Result</FieldName>
+          <FieldType>ConWeaver.SemNet.Core.RResult, SemNetCore</FieldType>
+          <FieldVal p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <InternalVariableName p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <MetaData p6:nil="true" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance" />
+          <VariableName>c4fb78d9-1eb3-4a25-916d-028f070de30e</VariableName>
+        </FunctionParameterValue>
+      </Outputs>
+      <TypeFullName>ConWeaver.SemNet.Core.SearchQueryOperators.ResultReturner.RamTableReturner.ReturnRamTableRange, SemNetCore</TypeFullName>
+    </StaticFunctionObject>
+  </MacroDefinition>
+  <MetaData p2:nil="true" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" />
+  <Outputs />
+</StaticFunctionDescriptor>
