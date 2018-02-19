@@ -35,6 +35,12 @@
       <Relation2Follow>d8603097-beca-4483-a096-f3f1e6a4f47a</Relation2Follow>
       <Relation2FollowSecond>00000000-0000-0000-0000-000000000000</Relation2FollowSecond>
     </SNJoinedAttributeClass>
+    <SNJoinedAttributeClass>
+      <AttributeClass>b34b0e9a-9bd8-4b2b-a650-9b29692e6db7</AttributeClass>
+      <PositionInJoin>5</PositionInJoin>
+      <Relation2Follow>00000000-0000-0000-0000-000000000000</Relation2Follow>
+      <Relation2FollowSecond>00000000-0000-0000-0000-000000000000</Relation2FollowSecond>
+    </SNJoinedAttributeClass>
   </JoinDefinition>
   <Name>a83790c0-056d-4618-8f59-c95435b1b2a3</Name>
   <isJoined>true</isJoined>
