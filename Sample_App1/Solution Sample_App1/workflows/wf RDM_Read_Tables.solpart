@@ -39,7 +39,7 @@
     </ModulInst>
     <ModulInst id="3" classID="7fe653afcb2ca7078cc3042ca43d1095e6e3e29b" ClassName="RDM_Read" location="831,101">
       <slots>
-        <SlotInst id="outcolumns" value="CategoryID|Discontinued|Prd_Id_Prefix|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
+        <SlotInst id="outcolumns" value="CategoryID|Discontinued|ProductID|ProductName|QuantityPerUnit|ReorderLevel|SupplierID|UnitPrice|UnitsInStock|UnitsOnOrder|_RDM_ID" />
         <SlotInst id="runmode" value="Main" />
         <SlotInst id="table" value="Product" />
       </slots>

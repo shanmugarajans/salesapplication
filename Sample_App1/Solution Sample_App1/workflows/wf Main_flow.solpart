@@ -15,6 +15,20 @@
     <Edge fromModule="3" fromSlot="ID8488590f8121481c88068bbeab7815d2" toModule="5" toSlot="IDd76102d5f6b04f2cbe21244ee3d5e9eb" />
     <Edge fromModule="3" fromSlot="IDf8952ba4be3543aab1674368858a646f" toModule="5" toSlot="IDd1c2ba388457434dbef555f57b1fa529" />
   </edges>
+  <macroEdges>
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="ID155473d67e2144eb9f6140de40b32ede" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="ID3295b69234b849d7bc0a3a2b0d7b574b" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="ID8201ffe611b24b4baa28b60c24754a25" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="IDd2b16ffc78204f0bbf9c79e8fd05d03f" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="IDd7d85812ada140cd81fb61b02c6acf8c" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="IDdb6c8352e1e84d988e02404fc6d8eb8e" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="3" internSlot="IDe95807e48c574fb28eb87cb627f7c2dc" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="5" internSlot="ID134ec386ae7b410d802feb4c6eb3f262" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="5" internSlot="ID4aaa65c9d1a84f9f88cd95040a1d00c4" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="5" internSlot="ID8e16f108d41d4e1991d5aca50cb75301" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="5" internSlot="ID941ea91e7bb046ac8bd6f9ec1729d3a3" />
+    <MacroEdge externSlot="ID231a2c3ad22b4318a199a1814f40aaee" internModule="5" internSlot="IDcb4963b076cd46578045ee13b8017e59" />
+  </macroEdges>
   <modules>
     <ModulInst id="0" classID="ID2d3cf28c775f4aaca2e2c2a3ac51acc6" ClassName="Load_RDM" location="544,0">
       <slots>
@@ -22,17 +36,29 @@
       </slots>
     </ModulInst>
     <ModulInst id="3" classID="ID34d7eb9d54f4445f8dc02ec3e18ba974" ClassName="Load_Instances" location="383,486">
-      <slots />
+      <slots>
+        <SlotInst id="ID155473d67e2144eb9f6140de40b32ede" />
+        <SlotInst id="ID3295b69234b849d7bc0a3a2b0d7b574b" />
+        <SlotInst id="ID8201ffe611b24b4baa28b60c24754a25" />
+        <SlotInst id="IDd2b16ffc78204f0bbf9c79e8fd05d03f" />
+        <SlotInst id="IDd7d85812ada140cd81fb61b02c6acf8c" />
+        <SlotInst id="IDdb6c8352e1e84d988e02404fc6d8eb8e" />
+        <SlotInst id="IDe95807e48c574fb28eb87cb627f7c2dc" />
+      </slots>
     </ModulInst>
     <ModulInst id="11" classID="ID598444bf52074f0c9ab079ba4e14a170" ClassName="RDM_Read_Tables" location="600,311">
       <slots />
     </ModulInst>
     <ModulInst id="5" classID="IDeb85493af23c4c59ab962502413f8e8d" ClassName="Load_Relation_Instances" location="802,504">
       <slots>
-        <SlotInst id="ID0a01e603afc44d25893986de3be8bed8" />
+        <SlotInst id="ID134ec386ae7b410d802feb4c6eb3f262" />
+        <SlotInst id="ID4aaa65c9d1a84f9f88cd95040a1d00c4" />
+        <SlotInst id="ID8e16f108d41d4e1991d5aca50cb75301" />
+        <SlotInst id="ID941ea91e7bb046ac8bd6f9ec1729d3a3" />
+        <SlotInst id="IDcb4963b076cd46578045ee13b8017e59" />
       </slots>
     </ModulInst>
-    <ModulInst id="10" classID="c931faba34592ddc63770acba404eae5d1d97c81" ClassName="RDM_CommitReadTransaction" location="539,672">
+    <ModulInst id="10" classID="c931faba34592ddc63770acba404eae5d1d97c81" ClassName="RDM_CommitReadTransaction" location="870,386">
       <slots />
     </ModulInst>
     <ModulInst id="1" classID="df3c309de160f79d9ef39cd149600daae0bdd5f8" ClassName="RDM_StartReadTransaction" location="564,101">
@@ -44,6 +70,9 @@
       </slots>
     </ModulInst>
   </modules>
+  <slots>
+    <SlotClass id="ID231a2c3ad22b4318a199a1814f40aaee" name="ID9683b594c79d4a18b20ecd9329e0d84a_0" defaultValue="" inputType="semnet" slotType="Parameter" location="620.4,912.5" variable="ID9683b594c79d4a18b20ecd9329e0d84a" variablestringformat="{0}" />
+  </slots>
   <timeEdges>
     <TimeEdge from="0" to="1" />
     <TimeEdge from="1" to="11" />
